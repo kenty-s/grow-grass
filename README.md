@@ -11,3 +11,7 @@ R7
 ☞学習：header,footer
 　課題：footerが反映されない
 　原因：footerのみrender記述漏れ(application.html.erb)
+
+🌸4/15　Rails基礎
+☞学習：ユーザー登録機能実装
+　課題：適切な言語、コードを理解出来ていない(浮かんでいない)
