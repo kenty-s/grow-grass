@@ -13,5 +13,6 @@ R7
 　原因：footerのみrender記述漏れ(application.html.erb)
 
 🌸4/15　Rails基礎
-☞学習：ユーザー登録機能実装
+☞学習：ユーザー登録機能実装(gem 'sorcery')
 　課題：適切な言語、コードを理解出来ていない(浮かんでいない)
+  メモ：GemはRailsのパッケージ。gem 'sorcery'はユーザー登録、ログインなどに必用な最低限のファイルを作成
