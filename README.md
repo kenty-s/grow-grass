@@ -64,6 +64,25 @@ R7
 　　　　　３．データ層(データ保存と取得。)
 　　　　●MVC：
 　　　　　Model(アプリのデータとビジネスロックの管理)、View(データの表示)、Controller(ModelとViewをつなぐ)
+       ●クッキーとキャッシュの違い
+       　クッキー：自ら入力した情報
+       　キャッシュ：閲覧したページの画像やファイルを保存
 
-
+🌸4/24( ポモ, H)　WEB技術入門
+☞学習：AM 5:00~6:30
+  JSON…軽量データ交換フォーマット
+  https://qiita.com/skm_bnn/items/ecf3d0fe1188e666d079
+  (ex)
+  {
+  "user": {
+    "username": "JohnDoe",
+    "age": 30,
+    "email": "john@example.com"
+  },
+  "address": {
+    "postalCode": "100-0001",
+    "prefecture": "Tokyo",
+    "city": "Chiyoda"
+  }
+}
 
