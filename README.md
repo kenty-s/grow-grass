@@ -138,3 +138,11 @@ R7
 🌸4/28(6ポモ,3H) 同期イベント立ち上げ
 ☞学習：Rails基礎諸々
 　　　　同期イベントを画策中
+
+🌸4/28(2ポモ,4H) 同期アウトプット会(参加者8名)
+☞学習：アウトプット会
+　　　　・マークダウン記法について
+　　　　https://www.genspark.ai/autopilotagent_viewer?id=afab9676-f374-45f5-8c2a-45d9d9549c97
+　　　　・すーさん
+　　　　https://www.youtube.com/@kihonzyouhou
+　　　　
