@@ -247,3 +247,26 @@ VScode においてマークダウン記法を使えることを知ったので�
 🎏5/7(7ポモ,3.5H)
 ☞学習：Rails基礎　掲示板の一覧機能作成
 　多少エラーが読めるようになってきたことが収穫
+
+🎏5/8(6ポモ,3H)
+☞学習：Rails基礎　掲示板の一覧機能作成
+       プルリクエストが通らなかった理由として、
+       /RUNTEQ/rails_basic/74174_kenty-s_basic_rails_basic/app/controllers/users_controller.rb
+       における誤った記述であることが判明。
+       正　`t('users.create.success')`
+       誤　`t('user_sessions.create.success')`
+       ユーザー登録が出来なかった場合について
+       `t('users.create.failure')`
+       と記述していることを考えると、この発想にはすぐに至れるべきであった。
+       ~~~
+       def create
+    @user = User.new(user_params)
+    if @user.save
+      session[:user_id] = @user.id
+      redirect_to root_path, success: t('users.create.success')
+    else
+      flash.now[:danger] = t('users.create.failure')
+      render :new, status: :unprocessable_entity
+    end
+  end
+  ~~~
