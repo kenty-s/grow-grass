@@ -317,3 +317,7 @@ VScode においてマークダウン記法を使えることを知ったので�
 ☞学習：掲示板の画像アップロード機能
 　　　　gem 'carrierwave'のGitHub読み込み
 　　　　（Providing a default URL から）
+
+🎏5/14(5ポモ,2.5H)
+☞学習：掲示板の画像アップロード機能
+        gem install carrierwave:2.2.2にてローカルでcarrierwaveをインストールできるが、webが起動されずDocker コンテナ内で インストールされない
