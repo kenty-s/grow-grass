@@ -321,3 +321,17 @@ VScode においてマークダウン記法を使えることを知ったので�
 🎏5/14(5ポモ,2.5H)
 ☞学習：掲示板の画像アップロード機能
         gem install carrierwave:2.2.2にてローカルでcarrierwaveをインストールできるが、webが起動されずDocker コンテナ内で インストールされない
+
+🎏5/15( ポモ, H)
+
+カリキュラム上でWindowsを用いて学習を行う場合の構成としては
+#Windowsの中にwslを用いてubuntuという別のOSをインストールし、そのubuntuの中にさらにDockerコンテナという"別のPCのような隔離された環境"を作成する
+というようなことを行っている
+
+       
+       | 項目            | `bundle install`                        | `gem install carrierwave`                        |
+| ------------- | --------------------------------------- | ------------------------------------------------ |
+| 対象            | `Gemfile` に書かれた全ての gem                  | 指定した gem（1つだけ）                                   |
+| 反映される範囲       | プロジェクトの依存として明確化される                      | 一時的、もしくはグローバルな Ruby 環境だけ                         |
+| Docker環境での使い方 | ✅ 推奨される                                 | ⚠️ 非推奨（環境の一貫性を壊す可能性）                             |
+| 実行例           | `docker compose run web bundle install` | `docker compose run web gem install carrierwave` |
