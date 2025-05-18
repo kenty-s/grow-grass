@@ -344,3 +344,30 @@ VScode においてマークダウン記法を使えることを知ったので�
 ☞学習：掲示板詳細画面の追加/コメント機能の実装
        boards#index #はコントローラーとアクションの区切り記号
       
+      | キー             | 内容（役割）                       |
+| -------------- | ---------------------------- |
+| `activerecord` | モデル名・属性名など、ActiveRecord関連の翻訳 |
+| `helpers`      | `form_with` などのヘルパー関連の翻訳     |
+| `views`        | 各ビュー（画面）専用の文言                |
+| `errors`       | バリデーションなどで表示されるエラーメッセージ      |
+| `defaults`     | 共通文言（投稿、削除、戻るなど）
+
+🎏5/18(14ポモ,7H)
+☞学習：掲示板詳細画面の追加/コメント機能の実装
+(復習)よくあるエラー一覧
+| エラー名                                     | 意味・説明                            | よくある原因例                                         |
+| ---------------------------------------- | -------------------------------- | ----------------------------------------------- |
+| `SyntaxError`                            | 文法エラー                            | - カッコの閉じ忘れ<br>- `end` の抜け<br>- `:` や `,` の書き間違い |
+| `NameError`                              | 未定義の変数やメソッドを使った                  | - 変数のスペルミス<br>- 定義前に使った                         |
+| `NoMethodError`                          | 存在しないメソッドを呼び出した                  | - nil に対してメソッド呼び出し<br>- クラスやオブジェクトの間違い          |
+| `ArgumentError`                          | 引数の数や形式が間違っている                   | - メソッドに渡す引数の数が違う                                |
+| `TypeError`                              | 型が合わない                           | - 数値に文字列を足そうとした (`1 + "a"`) など                  |
+| `RuntimeError`                           | 実行時エラー（汎用）                       | - raise などで明示的に投げた場合など                          |
+| `ActiveRecord::RecordNotFound`           | データが見つからなかった                     | - `Model.find(id)` で存在しない ID を指定した              |
+| `ActiveModel::ForbiddenAttributesError`  | Strong Parameters で許可していない属性を渡した | - `params.require(...).permit(...)` が不足している     |
+| `ActiveRecord::PendingMigrationError`    | マイグレーションが未実行                     | - `rails db:migrate` を忘れている                     |
+| `RoutingError`                           | ルート（URL）が存在しない                   | - `routes.rb` に定義していない URL にアクセスした              |
+| `Template::Error`                        | ビュー内のエラー（ERBなど）                  | - `<%= %>` 内の Ruby が間違っている                      |
+| `Webpacker::Manifest::MissingEntryError` | JSやCSSが読み込めない                    | - `yarn build` などが必要、アセットのビルド忘れ                 |
+
+自動レビュー実行前エラーに久しぶりにかかり、脱出できず。
