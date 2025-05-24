@@ -389,4 +389,62 @@ VScode においてマークダウン記法を使えることを知ったので�
 ☞学習：ブックマーク機能の追加
 久々にこれ知ってるぞ、分かるぞの感
 
-Userモデルにインスタンスメソッドを定義する
+🎏5/23(1ポモ,0.5H)
+☞学習：ブックマーク機能の追加
+
+🎏5/24(21ポモ,10.5H)
+☞学習：
+Gemfileインストールおさらい
+1️⃣ Gemfile に turbo-rails を追加
+gem 'turbo-rails', '1.1.1'
+2️⃣ Docker環境で bundle install
+docker compose run --rm web bundle install
+3️⃣ コンテナを再起動
+docker compose restart
+4️⃣ Railsの開発環境を起動
+docker compose exec web bin/dev
+
+###Turbo Streamの代表的なアクション
+| メソッド | 日本語訳 | 役割 |
+|---------|--------|------|
+| **append**  | **末尾に追加** | 指定した要素の **後ろに追加** |
+| **prepend** | **先頭に追加** | 指定した要素の **前に追加** |
+| **replace** | **置き換え** | 既存の要素を **別のものと入れ替え** |
+| **update**  | **更新** | 要素の内容を **変更・修正** |
+| **remove**  | **削除** | 指定した要素を **取り除く** |
+| **before**  | **前に挿入** | 特定の要素の **手前に追加** |
+| **after**   | **後に挿入** | 特定の要素の **後ろに追加** |
+
+## 🔍 Kaminari ＆ bootstrap5-kaminari-views：ドキュメント読み方ガイド
+
+### ✅ 1. [kaminari/kaminari](https://github.com/kaminari/kaminari)
+
+#### 📄 読むべきファイル／ディレクトリ
+
+- [`/README.md`](https://github.com/kaminari/kaminari#readme)
+  - 基本的な使い方（pageメソッド、paginateヘルパーなど）
+  - インストール方法
+- [`/kaminari/lib/kaminari/config.rb`](https://github.com/kaminari/kaminari/blob/master/kaminari/lib/kaminari/config.rb)
+  - デフォルト設定一覧（1ページの件数、リンクの数など）
+- [`/kaminari/lib/kaminari/helpers/`](https://github.com/kaminari/kaminari/tree/master/kaminari/lib/kaminari/helpers)
+  - ページネーションUIを組み立てる内部ロジック（中級者向け）
+
+---
+
+### ✅ 2. [felipecalvo/bootstrap5-kaminari-views](https://github.com/felipecalvo/bootstrap5-kaminari-views)
+
+#### 📄 読むべきファイル／ディレクトリ
+
+- [`/README.md`](https://github.com/felipecalvo/bootstrap5-kaminari-views#readme)
+  - `theme: 'bootstrap-5'` の使い方
+  - Bootstrapに合わせたページネーションのカスタマイズ方法
+- [`/views/kaminari/bootstrap-5/`](https://github.com/felipecalvo/bootstrap5-kaminari-views/tree/main/views/kaminari/bootstrap-5)
+  - Bootstrap 5 対応の `paginate` ビューの実装
+  - 自分のアプリにコピーしてカスタマイズする際に使う
+
+---
+
+### 💡 初心者におすすめの読み方手順
+
+1. 両方の `README.md` をしっかり読む（導入と基本がわかる）
+2. カスタマイズしたくなったら `views/kam
