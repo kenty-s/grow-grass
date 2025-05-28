@@ -461,3 +461,15 @@ docker compose exec web bin/dev
 🎏5/27(2ポモ,1H)
 ☞学習：掲示板の検索機能を実装
        公式ドキュメントの読み方がやはり不明
+
+🎏5/28( ポモ, H)
+☞学習：
+| 条件       | 説明                                     |
+|-----------|----------------------------------------|
+| `title_eq`   | 完全一致検索（`title = "検索ワード"`）  |
+| `title_cont` | 部分一致検索（`title LIKE "%検索ワード%"`） |
+| `title_start` | 前方一致（`title LIKE "検索ワード%"`）  |
+| `title_end`   | 後方一致（`title LIKE "%検索ワード"`）  |
+
+# は Railsのコントローラーアクションを表す記号
+(例)`boards#index`,`boards#show`
