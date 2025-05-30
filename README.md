@@ -329,12 +329,12 @@ VScode においてマークダウン記法を使えることを知ったので�
 というようなことを行っている
 
        
-| 項目            | `bundle install`                        | `gem install carrierwave`                        |
-| ------------- | --------------------------------------- | ------------------------------------------------ |
-| 対象            | `Gemfile` に書かれた全ての gem                  | 指定した gem（1つだけ）                                   |
+| 項目                | `bundle install`                        | `gem install carrierwave`                        |
+| -------------      | --------------------------------------- | ------------------------------------------------ |
+| 対象                | `Gemfile` に書かれた全ての gem                  | 指定した gem（1つだけ）                                   |
 | 反映される範囲       | プロジェクトの依存として明確化される                      | 一時的、もしくはグローバルな Ruby 環境だけ                         |
 | Docker環境での使い方 | ✅ 推奨される                                 | ⚠️ 非推奨（環境の一貫性を壊す可能性）                             |
-| 実行例           | `docker compose run web bundle install` | `docker compose run web gem install carrierwave` |
+| 実行例              | `docker compose run web bundle install` | `docker compose run web gem install carrierwave` |
 
 🎏5/16(7ポモ,3.5H)
 ☞学習：掲示板詳細画面の追加/コメント機能の実装
@@ -369,6 +369,7 @@ VScode においてマークダウン記法を使えることを知ったので�
 | `RoutingError`                           | ルート（URL）が存在しない                   | - `routes.rb` に定義していない URL にアクセスした              |
 | `Template::Error`                        | ビュー内のエラー（ERBなど）                  | - `<%= %>` 内の Ruby が間違っている                      |
 | `Webpacker::Manifest::MissingEntryError` | JSやCSSが読み込めない                    | - `yarn build` などが必要、アセットのビルド忘れ                 |
+#☆注意☆　`ActiveRecord::PendingMigrationError`はDockerでマイグレーションを行う場合`docker-compose exec web rails db:migrate`
 
 自動レビュー実行前エラーに久しぶりにかかり、脱出できず。
 
@@ -474,6 +475,37 @@ docker compose exec web bin/dev
 # は Railsのコントローラーアクションを表す記号
 (例)`boards#index`,`boards#show`
 
-🎏5/29( ポモ, H)
+🎏5/29(6ポモ,3H)
 ☞学習：
-       カラムを追加する＝マイグレートする
+カラムを追加する＝マイグレートする
+
+❓なぜ resources ではなく resource を使うのか？
+resources は 複数のリソース（例: boards, comments）を扱う想定なので、ID付きのルーティングになる：
+
+/profiles/1, /profiles/2/edit など
+
+resource は 1人につき1つしか存在しないリソース（例: ユーザーのプロフィール、設定画面など）に適しており、IDを省略できる
+
+👩‍🏫 まとめ
+使うルーティング	意味	URL例
+resource :profile	単一のプロフィールを対象	/profile, /profile/edit
+resources :profiles	複数のプロフィールを対象	/profiles/1, /profiles/1/edit
+
+`Zeitwerk::NameError`
+…Rails の自動読み込み（autoload）機能である Zeitwerk によって、クラス名とファイルパスが一致しないときに発生
+(解消方法)
+1. AvatarUploader のファイルとクラス定義が一致しているか？
+app/uploaders/avatar_uploader.rb
+
+class AvatarUploader < CarrierWave::Uploader::Base
+  # ...
+end
+2. クラス名を間違えていないか？
+たとえば以下のようなミスはNG：
+
+# ❌ class AvatorUploader と書いてしまっている
+class AvatorUploader < CarrierWave::Uploader::Base
+end
+
+🎏5/30( ポモ, H)
+☞学習：
