@@ -540,5 +540,6 @@ resources :boards do
   resources :comments
 end
 
-☔6/1(ポモ,H)
+☔6/1(6ポモ,3H)
 ☞学習：パスワードリセット機能の実装
+       `token`　本人確認のためのURL
