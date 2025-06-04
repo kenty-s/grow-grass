@@ -551,3 +551,11 @@ end
 ☞学習：パスワードリセット機能の実装
 
 ☔6/4( ポモ, H)
+☞学習：
+✅ layout と view の違い
+項目	layout	view
+役割	全体の枠組み	各ページの内容
+適用範囲	アプリ全体	特定のページ
+例	layouts/application.html.erb	users/show.html.erb
+
+マイグレーションできてるか怪しい
