@@ -550,7 +550,7 @@ end
 ☔6/3(8ポモ,4H)
 ☞学習：パスワードリセット機能の実装
 
-☔6/4( ポモ, H)
+☔6/4(6ポモ,3H)
 ☞学習：
 ✅ layout と view の違い
 項目	layout	view
@@ -559,3 +559,11 @@ end
 例	layouts/application.html.erb	users/show.html.erb
 
 マイグレーションできてるか怪しい
+
+
+☔6/5(6ポモ,3H)
+☞学習：roleをadminへ変更できない
+マイグレーションは出来ていたが、
+(ここから)
+URL：namespaceを使ってadminを切り出し、管理画面関連はそちらに配置する。
+- アセット：管理画面用と分かるように整理・配置する。
