@@ -584,3 +584,9 @@ schemaと.lockは手修正NG
 ☔6/10(8ポモ,4H)
 ☞学習：[管理画面]掲示板/ユーザのCRUD機能の作成
 カリキュラムの意図が分からなくなっている。CRUD機能実装くらいはできるようなりたいのだが、、、
+
+☔6/11(3ポモ,1.5H)
+☞学習：[管理画面]掲示板/ユーザのCRUD機能の作成
+
+\\wsl.localhost\Ubuntu\RUNTEQ\rails_basic\74174_kenty-s_basic_rails_basic\app\controllers\admin\users_controller.rb
+から
