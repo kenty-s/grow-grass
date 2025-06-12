@@ -588,5 +588,24 @@ schemaと.lockは手修正NG
 ☔6/11(3ポモ,1.5H)
 ☞学習：[管理画面]掲示板/ユーザのCRUD機能の作成
 
-\\wsl.localhost\Ubuntu\RUNTEQ\rails_basic\74174_kenty-s_basic_rails_basic\app\controllers\admin\users_controller.rb
-から
+
+☔6/12(8ポモ,4H)
+☞学習：[管理画面]掲示板/ユーザのCRUD機能の作成
+controllerの順番について
+✅ 順番のポイント
+before_action はクラスの冒頭
+CRUDアクション は index → show → new → create → edit → update → destroy
+privateメソッド（set_user や user_params）は最後に
+
+アクション名	役割
+index  	リソースの一覧を表示する
+new    	リソースを新規作成する
+create 	リソースを新規作成して追加(保存)する
+edit   	リソースを更新するためのフォームを作成する
+show   	レコードの内容を表示する
+update 	リソースを更新する
+destroy	リソースを削除する
+
+☔6/13(　ポモ,　H)
+☞学習：[管理画面]掲示板/ユーザのCRUD機能の作成
+「詳細」の表示、boardの完成
