@@ -620,5 +620,21 @@ destroy	リソースを削除する
 ☔6/16(10ポモ,5H)
 ☞学習：[管理画面]掲示板/ユーザのCRUD機能の作成
 
-☔6/17( ポモ, H)
-☞学習：
+☔6/17(0ポモ,0H)
+☞学習：体調不良につきなし
+
+☔6/18(9ポモ,4.5H)
+☞学習：[管理画面]掲示板/ユーザのCRUD機能の作成
+本格的に進まなくなってきた、、、
+
+✅テストエラー一覧表（Markdown形式）
+| エラーコード                        | エラーの意味                                                                 | 解決方法（概要）                                                                 |
+|------------------------------------|------------------------------------------------------------------------------|----------------------------------------------------------------------------------|
+| `ActionController::ParameterMissing` | `params[:board]` が不足している                                             | `board_params` で `params[:board]` が nil の場合に対応（防御的に）              |
+| `ActiveRecord::RecordNotFound`     | 掲示板が見つからなかった or 他人の投稿にアクセス                            | `find(params[:id])` を `current_user.boards.find(...)` に変更（権限チェック）    |
+| `element not interactable`        | Capybara（system spec）でボタン等が非アクティブで操作できない               | 非表示 or disabled 状態 → `wait` 処理や要素の見直し                            |
+| `No Ransack::Search object...`    | `@q` が `nil` → `search_form_for` でクラッシュ                             | 該当アクションで `@q = モデル.ransack(params[:q])` を忘れている                 |
+| `フラッシュメッセージ表示失敗`     | テストで期待されるメッセージが表示されていない                             | `redirect_to ... , flash: {}` の記述ミスやI18n設定ミスを修正                    |
+| `expected "/" to equal "/boards/..."` | リダイレクト先が想定と異なる                                               | `redirect_to` のURL確認、失敗時の `render` or `redirect` の制御を見直す        |
+
+
