@@ -637,4 +637,55 @@ destroy	リソースを削除する
 | `フラッシュメッセージ表示失敗`     | テストで期待されるメッセージが表示されていない                             | `redirect_to ... , flash: {}` の記述ミスやI18n設定ミスを修正                    |
 | `expected "/" to equal "/boards/..."` | リダイレクト先が想定と異なる                                               | `redirect_to` のURL確認、失敗時の `render` or `redirect` の制御を見直す        |
 
+☔6/19(6ポモ,3H)
+☞学習：[管理画面]掲示板/ユーザのCRUD機能の作成
 
+1つ前のカリキュラムの状態へ戻る方法
+
+kenta@sakamoto:/RUNTEQ/rails_basic/74174_kenty-s_basic_rails_basic$ git commit -m '22'
+[22_admin_user_board_crud 5feca42] 22
+ 3 files changed, 52 insertions(+), 52 deletions(-)
+kenta@sakamoto:/RUNTEQ/rails_basic/74174_kenty-s_basic_rails_basic$ git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+kenta@sakamoto:/RUNTEQ/rails_basic/74174_kenty-s_basic_rails_basic$ git checkout -b 22_admin_user_board_crud2
+Switched to a new branch '22_admin_user_board_crud2'
+kenta@sakamoto:/RUNTEQ/rails_basic/74174_kenty-s_basic_rails_basic$ git add .
+kenta@sakamoto:/RUNTEQ/rails_basic/74174_kenty-s_basic_rails_basic$ git commit -m '22'
+On branch 22_admin_user_board_crud2
+nothing to commit, working tree clean
+kenta@sakamoto:/RUNTEQ/rails_basic/74174_kenty-s_basic_rails_basic$ git push origin 22_admin_user_board_crud2
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://git-codecommit.ap-northeast-1.amazonaws.com/v1/repos/74174_kenty-s_basic_rails_basic
+ * [new branch]      22_admin_user_board_crud2 -> 22_admin_user_board_crud2
+kenta@sakamoto:/RUNTEQ/rails_basic/74174_kenty-s_basic_rails_basic$ git branch
+  01_basic_settings
+  02_header_footer
+  03_sorcery_install
+  04_i18n
+  05_flash_messages
+  06_decorator
+  07_board_index
+  08_create_board
+  09_form_error_messages
+  10_upload_board_image
+  11_create_comment
+  12_dynamic_title
+  13_board_edit_delete
+  14_bookmark_board
+  15_bookmark_turbo
+  16_comment_turbo
+  17_board_pagination
+  18_search_boards
+  19_profile_edit
+  20_password_reset
+  21_admin_login
+  22_admin_user_board_crud
+* 22_admin_user_board_crud2
+  master
+kenta@sakamoto:/RUNTEQ/rails_basic/74174_kenty-s_basic_rails_basic$ git checkout 22_admin_user_board_crud
+Switched to branch '22_admin_user_board_crud'
+kenta@sakamoto:/RUNTEQ/rails_basic/74174_kenty-s_basic_rails_basic$ git checkout 22_admin_user_board_crud2
+Switched to branch '22_admin_user_board_crud2'
+
+☔6/20(11ポモ,5.5H)
