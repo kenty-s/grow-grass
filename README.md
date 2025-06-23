@@ -689,3 +689,36 @@ kenta@sakamoto:/RUNTEQ/rails_basic/74174_kenty-s_basic_rails_basic$ git checkout
 Switched to branch '22_admin_user_board_crud2'
 
 ☔6/20(11ポモ,5.5H)
+☞学習：[管理画面]掲示板/ユーザのCRUD機能の作成
+
+☔6/21(4ポモ,2H)
+☞学習：[管理画面]掲示板/ユーザのCRUD機能の作成
+
+☔6/22(18ポモ,9H)
+☞学習：[管理画面]掲示板/ユーザのCRUD機能の作成,基礎STEP 総復習 クイズ
+不要なファイルが妨げになる可能性はあるので、Gitでステージングする際に不要なファイルがないか確認する
+ex)lsで拡張子がないものが紛れていないかチェック。今回は'et --hard 77e798e'が邪魔をしていた。
+
+```
+kenta@sakamoto:/RUNTEQ/rails_basic/74174_kenty-s_basic_rails_basic$ ls
+ Dockerfile     config               package.json
+ Gemfile        config.ru            public
+ Gemfile.lock   db                   spec
+ Procfile.dev   docker-compose.yml   storage
+ README.md     'et --hard 77e798e'   tmp
+ Rakefile       lib                  vendor
+ app            log                  yarn.lock
+ bin            node_modules
+```
+
+#updateメソッド
+更新に成功した場合、更新されたレコードを返す。
+更新に失敗した場合、falseを返す。
+更新に失敗した場合、例外を発生させない。
+#update!メソッド
+更新に成功した場合、更新されたレコードを返す。
+更新に失敗した場合、例外(ActiveRecord::RecordInvalid)を発生させる。
+バリデーションエラー等、どのような理由で更新に失敗したかを特定できる。
+
+☔6/23(10ポモ,5H)
+☞学習：RSpec入門演習　システムスペック
