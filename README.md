@@ -720,5 +720,11 @@ kenta@sakamoto:/RUNTEQ/rails_basic/74174_kenty-s_basic_rails_basic$ ls
 更新に失敗した場合、例外(ActiveRecord::RecordInvalid)を発生させる。
 バリデーションエラー等、どのような理由で更新に失敗したかを特定できる。
 
-☔6/23(10ポモ,5H)
+☔6/23(11ポモ,5.5H)
+☞学習：RSpec入門演習　RSpecのセットアップ
+
+☔6/24(4ポモ,2H)
+☞学習：RSpec入門演習　モデルスペック、システムスペック
+
+☔6/24(10ポモ,5H)
 ☞学習：RSpec入門演習　システムスペック
