@@ -726,5 +726,8 @@ kenta@sakamoto:/RUNTEQ/rails_basic/74174_kenty-s_basic_rails_basic$ ls
 ☔6/24(4ポモ,2H)
 ☞学習：RSpec入門演習　モデルスペック、システムスペック
 
-☔6/24(10ポモ,5H)
+☔6/25(10ポモ,5H)
 ☞学習：RSpec入門演習　システムスペック
+
+☔6/26(6ポモ,3H)
+☞学習：RSpec入門演習　RSpecの修正
