@@ -734,3 +734,6 @@ kenta@sakamoto:/RUNTEQ/rails_basic/74174_kenty-s_basic_rails_basic$ ls
 
 ☔6/27(5ポモ,2.5H)
 ☞学習：RSpecの修正,基礎STEP総復習
+
+☔6/28(7ポモ,3.5H)
+☞学習：中間試験SQL
