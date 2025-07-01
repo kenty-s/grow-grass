@@ -743,3 +743,9 @@ kenta@sakamoto:/RUNTEQ/rails_basic/74174_kenty-s_basic_rails_basic$ ls
 RUNTEQ関西オフ会 @難波
 カリキュラムの進め方、就活、conpassなど情報取得。
 関係性構築はエンジニアにおいて有用性が高い。
+
+☔6/30(6ポモ,3H)
+☞学習：中間試験テーブル設計
+
+7/1(7ポモ,3.5H)
+☞学習：中間試験テーブル設計,Ruby
