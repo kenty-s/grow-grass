@@ -798,3 +798,11 @@ https://toji.tech/rails%E3%81%A7gem%E3%82%92%E4%BD%BF%E7%94%A8%E3%81%9B%E3%81%9A
 🌊7/12(9ポモ,4.5H)
 ☞学習：中間試験Rails
 タグは表示されたがUIが思った感じではない。
+method名	役割
+find_or_initialize_by	新規作成して保存はしない
+find_or_create_by	新規作成後、保存
+
+🌊7/13(17ポモ,8.5H)
+☞学習：中間試験Rails
+とりあえずプルリク。RSpecOK
+追って全体の流れを復習したい
