@@ -882,3 +882,53 @@ claudeを触ってみたり、Notionにまとめてみたりetc
 🌊7/18(8ポモ,4H)
 ☞学習：Rails応用2パンくずの設定
 パンくず、gem gretelはさすがにかわいい
+
+🌊7/19(5ポモ,2.5H)
+☞学習：Rails応用3，4
+
+🌊7/20(15ポモ,7.5H)
+☞学習：Rails応用4,卒業制作README,デザイン
+トリッキーなデザインをどこまで再現できるか、、、
+[![Image from Gyazo](https://i.gyazo.com/a5484312c1d6b991c9c9c2d21282ce0e.png)](https://gyazo.com/a5484312c1d6b991c9c9c2d21282ce0e)
+
+🌊7/21(2ポモ,H)
+☞学習：Rails応用4,卒業制作README
+
+🌊7/22(8ポモ,4H)
+☞学習：Rails応用4,卒業制作README
+卒業制作はNextここから。プルリクすること。
+cd /RUNTEQ/graduation_development/myapp
+bundle install
+bin/rails server
+☞技術面談：プルリクについて
+未解決事案
+- ソース管理　何も存在していない。
+- GitHub　なぜ初期がmaster？mainがない
+
+🌊7/23(9ポモ,4.5H)
+卒業制作はNextここから。プルリクすること。
+cd /RUNTEQ/graduation_development/myapp
+bundle install
+bin/rails server
+☞技術面談：プルリクについて
+未解決事案
+- ソース管理　何も存在していない。
+- GitHub　なぜ初期がmaster？mainがない
+
+🌊7/24(6ポモ,3H)
+☞学習：卒業制作
+Rails、Rubyのバージョンをどうすべきか分からなくなり混乱...
+
+🌊7/25(4ポモ,2H)
+☞学習：卒業制作
+
+🌊7/26(0ポモ,0H)
+終日家族時間
+
+🌊7/27(14ポモ,7H)
+☞学習：卒業制作(README)、Rails応用4
+
+🌊7/28(ポモ,H)
+☞学習：
+7/19~7/27まで関係のないブランチにコミットしていたようだ...
+道理で草が生えないわけで。悲しい...
