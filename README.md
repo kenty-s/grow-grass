@@ -955,3 +955,10 @@ Rails、Rubyのバージョンをどうすべきか分からなくなり混乱..
 🌊7/30(5ポモ,2.5H)
 ☞学習：RUNTEQ_path申し込み
 エンジニアをより知るべく申し込み完了
+
+🌊7/31(7ポモ,3.5H)
+☞学習：Rails5
+`app/forms/search_articles_form.rb`記載の
+`relation` ActiveRecordレコードのリレーションで、
+`app/models/article.rb`に記載の`scope`を呼び出す。
+
