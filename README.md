@@ -985,3 +985,18 @@ class ArticlePolicy < ApplicationPolicy # ポリシーファイルというも�
   end
 
 `gem cancancan` : cancanの後継。「各ユーザー毎に、どのような権限を持っているのか」
+
+🏔8/4(5ポモ,2.5H)
+☞学習：Rails6
+
+🏔8/5(5ポモ,2.5H)
+☞学習：Rails6(朝会1Hあり)
+`taxonomy`とは
+taxonomy（タクソノミー） = 分類体系のこと
+Tag（タグ）
+Category（カテゴリー）
+Author（著者）
+これらをまとめて「taxonomy」と呼んでいる。
+
+`AppilicationPolicy`は方針の基本。
+その他の`Policy`を書くと`ApilicationPolicy`以外が優先される
