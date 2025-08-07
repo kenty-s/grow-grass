@@ -1000,3 +1000,9 @@ Author（著者）
 
 `AppilicationPolicy`は方針の基本。
 その他の`Policy`を書くと`ApilicationPolicy`以外が優先される
+
+🏔8/6(4ポモ,2H)
+☞学習：Rails7
+
+🏔8/7(ポモ,H)
+☞学習：Rails7
