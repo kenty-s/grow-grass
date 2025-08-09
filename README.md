@@ -1011,10 +1011,11 @@ Author（著者）
 ☞学習：Rails7
 子の体調不良で日中も少々勉強
 
-## 🏔8/8(ポモ,H)
+## 🏔8/8(1ポモ,0.5H)
 ☞学習：Rails7
+逆に子の体調不良で勉強できず
 
-## 🏔8/9(ポモ,H)
+## 🏔8/9(12ポモ,6H)
 ☞学習：Rails7
 `text-#{}` でBootstrapクラスを動的に生成
 
@@ -1030,3 +1031,13 @@ Author（著者）
 Ctrl+C > `docker compose exec web bin/dev`- 開発環境サーバー再起動の実行
 `Ctrl + F5` - 強制更新
 `Ctrl + Shift + `R` - キャッシュクリア更新
+
+## 🏔8/11(2ポモ,1H) ※朝活部屋で参加のためポモ数は参考
+☞学習：Rails7
+// 開発者ツールのConsoleで実行
+~~~
+console.log('ラジオボタン要素の確認:');
+console.log(document.querySelectorAll('.radio')); / ラジオボタンは表示されているか？
+console.log(document.querySelectorAll('input[type="radio"]')); / 選択は正常に動作するか？
+console.log(document.querySelectorAll('[name*="eyecatch_align"]')); / データは正しく保存されるか？
+~~~
