@@ -975,7 +975,7 @@ Rails、Rubyのバージョンをどうすべきか分からなくなり混乱..
 - 詳細はNotionにメモ
 
 ## 🏔8/3(3ポモ,1.5H)
-☞学習：
+☞学習：Rails6
 `gem pundit` : どのユーザーであれば処理が許可されるのかを定義
 class ArticlePolicy < ApplicationPolicy # ポリシーファイルというものをオブジェクト別に作成し、例えばArticleというオブジェクトに対しての設定を行う場合
   def index?
@@ -1039,7 +1039,7 @@ console.log(document.querySelectorAll('input[type="radio"]')); / 選択は正常
 console.log(document.querySelectorAll('[name*="eyecatch_align"]')); / データは正しく保存されるか？
 ~~~
 
-## 🏔8/10(4ポモ,2H)
+## 🏔8/11(4ポモ,2H)
 ☞学習：Rails7 LGTM
 ### `f.input` と `f.input_field`の違い
 ### 1. HTML構造の違い
@@ -1051,3 +1051,17 @@ f.input_field → 最小限のCSSクラスのみ
 ### 3. JavaScriptとの相性
 f.input → 複雑なDOM構造でJavaScriptが要素を見失う
 f.input_field → シンプルな構造で要素が安定
+
+## 🏔8/12(ポモ,H)
+☞学習：Rails7復習、Rails8
+`change_column` には　`def change` - 変化を加える
+radioボタン - enumで列挙
+ex) 
+~~~
+enum eyecatch_align: { left: 0, center: 1, right: 2 }
+
+validates :eyecatch_width, numericality: 
+{ less_than_or_equal_to: 700,
+ greater_than_or_equal_to: 100, 
+ allow_blank: true }
+~~~
