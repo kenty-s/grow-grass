@@ -989,7 +989,7 @@ class ArticlePolicy < ApplicationPolicy # ポリシーファイルというも�
 ## 🏔8/4(5ポモ,2.5H)
 ☞学習：Rails6
 
-## 🏔8/5(5ポモ,2.5H)
+## 🏔8/5(6ポモ,3H)
 ☞学習：Rails6(朝会1Hあり)
 `taxonomy`とは
 taxonomy（タクソノミー） = 分類体系のこと
@@ -1002,9 +1002,6 @@ Author（著者）
 その他の`Policy`を書くと`ApilicationPolicy`以外が優先される
 
 ## 🏔8/6(4ポモ,2H)
-☞学習：Rails7
-
-## 🏔8/7(ポモ,H)
 ☞学習：Rails7
 
 ## 🏔8/7(11ポモ,5.5H)
@@ -1032,7 +1029,7 @@ Ctrl+C > `docker compose exec web bin/dev`- 開発環境サーバー再起動の
 `Ctrl + F5` - 強制更新
 `Ctrl + Shift + `R` - キャッシュクリア更新
 
-## 🏔8/11(2ポモ,1H) ※朝活部屋で参加のためポモ数は参考
+## 🏔8/10(4ポモ,2H) ※朝活部屋で参加のためポモ数は参考
 ☞学習：Rails7
 // 開発者ツールのConsoleで実行
 ~~~
@@ -1041,3 +1038,16 @@ console.log(document.querySelectorAll('.radio')); / ラジオボタンは表示�
 console.log(document.querySelectorAll('input[type="radio"]')); / 選択は正常に動作するか？
 console.log(document.querySelectorAll('[name*="eyecatch_align"]')); / データは正しく保存されるか？
 ~~~
+
+## 🏔8/10(4ポモ,2H)
+☞学習：Rails7 LGTM
+### `f.input` と `f.input_field`の違い
+### 1. HTML構造の違い
+f.input → より複雑なラッパー要素を生成
+f.input_field → シンプルな要素のみ生成
+### 2. CSSの競合
+f.input → Bootstrap/simple_formの複数のCSSが競合する可能性 #今回一番邪魔していたのはココ
+f.input_field → 最小限のCSSクラスのみ
+### 3. JavaScriptとの相性
+f.input → 複雑なDOM構造でJavaScriptが要素を見失う
+f.input_field → シンプルな構造で要素が安定
