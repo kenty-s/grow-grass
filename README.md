@@ -1052,11 +1052,11 @@ f.input_field → 最小限のCSSクラスのみ
 f.input → 複雑なDOM構造でJavaScriptが要素を見失う
 f.input_field → シンプルな構造で要素が安定
 
-## 🏔8/12(ポモ,H)
+## 🏔8/12(5ポモ,2.5H)
 ☞学習：Rails7復習、Rails8
 `change_column` には　`def change` - 変化を加える
 radioボタン - enumで列挙
-ex) 
+ex)
 ~~~
 enum eyecatch_align: { left: 0, center: 1, right: 2 }
 
@@ -1065,3 +1065,6 @@ validates :eyecatch_width, numericality:
  greater_than_or_equal_to: 100, 
  allow_blank: true }
 ~~~
+
+## 🏔8/13(4ポモ,2H)
+☞学習：Rails8
