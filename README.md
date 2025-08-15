@@ -1066,5 +1066,22 @@ validates :eyecatch_width, numericality:
  allow_blank: true }
 ~~~
 
-## 🏔8/13(4ポモ,2H)
+## 🏔8/13(6ポモ,3H)
 ☞学習：Rails8
+
+## 🏔8/14(9ポモ,4.5H)
+☞学習：Rails8
+
+## 🏔8/15(8ポモ,4H)
+☞学習：Rails8
+
+/Geminiより
+プログラミングの世界では、すべてを暗記しようとせず、**「必要な知識を、必要なときに素早く見つけ出す能力」**の方がはるかに重要とされています。この正規表現(*)もその一つです。
+* youtube_id_match = identifier.match(
+~~~
+`%r{(?:youtube\.com/(?:[^/]+/.+/|(?:v|e(?:mbed)?)/|.*[?&]v=)|youtu\.be/)([^"&?/\\s]{11})})`
+~~~
+
+Pythonの文字列メソッド`split()` : 文字列を特定区切り文字で分割
+
+
