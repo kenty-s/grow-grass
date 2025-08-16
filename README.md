@@ -1084,4 +1084,10 @@ validates :eyecatch_width, numericality:
 
 Pythonの文字列メソッド`split()` : 文字列を特定区切り文字で分割
 
+## 🏔8/16(14ポモ,7H)
+☞ 関西もくもく会
+☞学習：Rails8
+
+UIはV0を使用
+V0にあげるためのプロンプトはGPTで作成
 
