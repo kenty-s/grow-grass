@@ -1120,3 +1120,12 @@ Update = 編集
 Delete = 削除
 ~~~
 https://zenn.dev/goldsaya/articles/02360f3fcb89e2
+
+wehnexer,cron導入
+https://qiita.com/mmaumtjgj/items/19e866f31541abb6c614
+
+Mailer
+https://railsguides.jp/action_mailer_basics.html
+
+## 🏔8/21(7ポモ,3.5H)
+☞学習：Rails10 LGTM
