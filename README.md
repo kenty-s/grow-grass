@@ -1129,3 +1129,12 @@ https://railsguides.jp/action_mailer_basics.html
 
 ## 🏔8/21(7ポモ,3.5H)
 ☞学習：Rails10 LGTM
+
+## 🏔8/22(1ポモ,0.5H)
+☞学習：開発カリキュラム10
+HEROKUのスタート(SignUpは完了)、Rails10復習から
+
+## 🏔8/23(3ポモ,1.5H)
+☞学習：開発カリキュラム10
+
+
