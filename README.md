@@ -1134,7 +1134,7 @@ https://railsguides.jp/action_mailer_basics.html
 ☞学習：開発カリキュラム10
 HEROKUのスタート(SignUpは完了)、Rails10復習から
 
-## 🏔8/23(3ポモ,1.5H)
-☞学習：開発カリキュラム10
+## 🏔8/23(8ポモ,4H)
+☞学習：開発カリキュラム10~12,Ruby応用1,2
 
 
