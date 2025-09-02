@@ -1175,3 +1175,6 @@ AIに遊ばれている
 ☞学習：卒業制作画面遷移図
   面談：プルリクはissueとつなげられる(実務で使うが、RUNTEQで使用はなし)
   　　　https://docs.github.com/ja/issues/tracking-your-work-with-issues/using-issues/linking-a-pull-request-to-an-issue
+
+## 🏔9/2(5ポモ,2.5H)
+☞学習：卒業制作画面遷移図LGTM,ER図
