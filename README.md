@@ -1186,4 +1186,4 @@ AIに遊ばれている
 ☞学習：卒業制作ER図,issueベースの開発
 
 ## 🏔9/6(12ポモ,6H)
-☞学習：卒業制作ER図,issueベースの開発
+☞学習：卒業制作ER図,issueベースの開発,ActiveRecorder演習、応用Step３
