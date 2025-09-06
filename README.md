@@ -1176,5 +1176,14 @@ AIに遊ばれている
   面談：プルリクはissueとつなげられる(実務で使うが、RUNTEQで使用はなし)
   　　　https://docs.github.com/ja/issues/tracking-your-work-with-issues/using-issues/linking-a-pull-request-to-an-issue
 
-## 🏔9/2(5ポモ,2.5H)
-☞学習：卒業制作画面遷移図LGTM,ER図
+## 🏔9/3(1ポモ,0.5H)
+☞学習：卒業制作ER図
+
+## 🏔9/4(6ポモ,3H)
+☞学習：卒業制作ER図
+
+## 🏔9/5(5ポモ,2.5H)
+☞学習：卒業制作ER図,issueベースの開発
+
+## 🏔9/6(12ポモ,6H)
+☞学習：卒業制作ER図,issueベースの開発
