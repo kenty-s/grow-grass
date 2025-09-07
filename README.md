@@ -1187,3 +1187,16 @@ AIに遊ばれている
 
 ## 🏔9/6(12ポモ,6H)
 ☞学習：卒業制作ER図,issueベースの開発,ActiveRecorder演習、応用Step３
+
+## 🏔9/7(9ポモ,4.5H)
+☞学習：卒業制作ER図,issueベースの開発,応用Step4~11
+× @posts = Post.where("status = '#{params[:status]}'")
+○ @posts = Post.where("status = ?", params[:status])
+
+? を使うことで、Railsが自動的に入力値をエスケープ（無害化）してくれるため、
+SQLインジェクション攻撃を防げる
+
+"と'使い分け
+#{}(式展開)を使いたい → " ダブルクォート
+単純な文字列 → ' シングルクォート（慣習的）
+SQL文 → どちらでもOK（チームの規約に従う）
