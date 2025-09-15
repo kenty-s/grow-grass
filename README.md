@@ -1230,24 +1230,20 @@ issueは思っているより細分化が必要
 
 # 絞り込み
 select { |item| 条件 }
-
 # 変換
 map { |item| 変換処理 }
-
 # 検索
 find { |item| 条件 }
-
 # 存在確認
 any? { |item| 条件 }
-
 # 合計
 sum { |item| 数値 }
-
 # ex
 result = users.select{ |user| user[:role] == "general" }.map{ |user| user[:name] + 'さん' }
 puts result
 
 if,elsif - 条件判定するロジックは包含関係を意識
 
-## 🎑9/14(12ポモ,6H+3H=9H)
+## 🎑9/15(6ポモ,3H)
 ☞学習：ミニアプリウィーク
+イラスト作りだけで終わった...自分で作るべきか
