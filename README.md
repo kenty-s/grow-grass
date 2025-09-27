@@ -1295,5 +1295,17 @@ https://miniapp-week.onrender.com/
 `rails new . --database=postgresql --skip-git --force`
 `rails generate controller Home index`
 
-## 🎑9/25
-☞学習：
+## 🎑9/25(4ポモ/2H+2H)
+☞学習：ミニアプリウィーク閉会式、基本情報勉強会(アルゴリズム、プログラミング)
+- AIブラウザ Dia　を導入 https://www.diabrowser.com/
+- アイコン　https://blush.design/collections/open-peeps/open-peeps
+
+## 🎑9/26(2ポモ/1H)
+☞学習：卒業制作
+
+## 🎑9/27(7ポモ/3.5H＋1.5H)
+☞学習：MVC勉強会、卒業制作
+- `docker compose exec web rails g model User` ユーザーモデルの作成 ➡gでファイルを作成していく
+- `docker compose exec web rails db:migrate:status`  migrationファイルのカラムの登録
+- webが立ち上がらない　➡　`docker ps` で立ち上がっているものを確認し、すべて `docker stop` をかけて再度upを試みる
+- conttollerに　`@users = User.all`　➡　Userのすべてを持ってきて。(viewにも見せる)　➡　.○○　Activestrageへの命令　Rails入門5章
