@@ -1309,3 +1309,19 @@ https://miniapp-week.onrender.com/
 - `docker compose exec web rails db:migrate:status`  migrationファイルのカラムの登録
 - webが立ち上がらない　➡　`docker ps` で立ち上がっているものを確認し、すべて `docker stop` をかけて再度upを試みる
 - conttollerに　`@users = User.all`　➡　Userのすべてを持ってきて。(viewにも見せる)　➡　.○○　Activestrageへの命令　Rails入門5章
+
+☞明日へ引き継ぎ
+~~~
+bootstrapからTailswindへ変更
+ruby、Railsのバージョンを変更
+Gemのインストールからスタート
+~~~
+
+## 🎑9/28(7ポモ/3.5H)
+☞学習：卒業制作
+- Gem導入、`bundle install`
+- Tailwind導入
+☞明日へ引き継ぎ
+~~~
+Tailwind勉強
+~~~
