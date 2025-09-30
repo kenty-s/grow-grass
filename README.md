@@ -1253,7 +1253,7 @@ if,elsif - 条件判定するロジックは包含関係を意識
 以下アプリ完成(claudecode使用)
 https://miniapp-week.onrender.com/
 
-## 🎑9/23(8ポモ/4H)
+## 🎑9/22(8ポモ/4H)
 ☞学習：卒業制作
 関西もくもく会(自分が主催)
 - renderのDBは制限あり。neon活用も検討。
@@ -1339,3 +1339,10 @@ Tailwind勉強
 ☞学習：卒業制作
 - Renderでデプロイすることに決定(技術面談にて)
 - 業務にてD24Hについてハンズオン(詳細言えないが)。かつてより情報の乱立を懸念していたが、数々のシステムの情報を集約しているシステムに非常に魅力を感じた。エンジニア転職欲UP。
+
+## 🎑9/30(ポモ/H)
+☞学習：卒業制作、実践コードリーディング会
+https://school.runteq.jp/v2/runteq_events/1559
+
+- オブジェクト指向　ものと操作を分けて作り組み立てるように開発
+https://runteq.jp/blog/programming-school/23091/?gad_source=1&gad_campaignid=18739270445&gbraid=0AAAAACbqO44BljOidHI99F8vh4IHpJkmv&gclid=CjwKCAjw_-3GBhAYEiwAjh9fUHzZO8JnTR562g7-2vrZ-V9Mq5uMH7P7qUF9sdIHNIO74GBoQ3fJbRoC69oQAvD_BwE
