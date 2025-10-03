@@ -1349,6 +1349,30 @@ https://runteq.jp/blog/programming-school/23091/?gad_source=1&gad_campaignid=187
 
 - tailwindcss-rails 4.3.0とsassc-rails 競合するためtailwindcss-rails一本化
 
-## 🎃10/1(ポモ/H)
+## 🎃10/1(2ポモ/1H)
 ☞学習：卒業制作
 - デプロイできた！！！
+
+## 🎃10/2(7ポモ/3.5H+1H)
+☞学習：基本情報勉強会、卒業制作
+
+## RESTfulなアクションの基本
+Railsでよく使われる7つの標準アクション:
+
+index - 一覧表示（複数件）
+show - 詳細表示（1件）
+new - 新規作成フォーム表示
+create - 新規作成処理
+edit - 編集フォーム表示
+update - 更新処理
+destroy - 削除処理
+
+アクセス例
+
+/users → index（ユーザー一覧）
+/users/1 → show（ID:1のユーザー詳細）
+/users/2 → show（ID:2のユーザー詳細）
+
+## 🎃10/3(5ポモ/2.5H)
+☞学習：卒業制作
+あまりにも構造理解ができていない。復習あるのみ、、、
