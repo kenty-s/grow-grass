@@ -1381,3 +1381,56 @@ destroy - 削除処理
 ☞学習：卒業制作
 
 `docker logs コンテナ名 2>&1 | grep -i error`　エラーのみ出力
+
+## 🎃10/5(13ポモ/6.5H)
+☞学習：卒業制作
+~~~
+app/controllers/dishes_controller.rb
+├─ search # 条件選択画面（検索フォーム表示）
+└─ show   # 検索結果画面（ランダム料理1つ表示）
+
+app/views/dishes/
+├─ search.html.erb # 条件選択画面
+└─ show.html.erb   # 検索結果画面（ランダム料理表示）
+💭 実装の流れ
+Home画面 → 単一条件検索 → dishes#show（ランダム料理表示）
+Home画面 → 複数条件検索 → dishes#search → dishes#show
+~~~
+
+## 🎃10/6(1ポモ/0.5H)
+☞面談：SES企業との面談
+
+
+## 🎃10/7(0ポモ/0H)
+☞学習：翌朝早朝勉強
+
+## 🎃10/8(9ポモ/4.5H)
+☞学習：
+`head -n 1950 db/seeds.rb | tail -n 20`
+`head -n ○行目 ファイル名 | tail -n ○行分`
+
+GitHubへのmergeがうまくいかず。
+復習を兼ねて基本的な流れを残す。
+
+~~~
+### 最小限のGitワークフロー
+
+🚀 シンプルな3ステップ
+- Step 1: 作業開始
+# 新しいブランチ作成
+git checkout -b ブランチ名
+# ファイル編集・作成
+
+- Step 2: コミット・プッシュ
+git add .
+git commit -m "メッセージ"
+git push origin ブランチ名
+
+- Step 3: マージ
+# GitHub上でPull Request作成・マージ
+# または
+git checkout main
+git merge ブランチ名
+git push origin main
+~~~
+
