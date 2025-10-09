@@ -1321,16 +1321,9 @@ Gemのインストールからスタート
 ☞学習：卒業制作
 - Gem導入、`bundle install`
 - Tailwind導入
-☞明日へ引き継ぎ
+### 明日へ引き継ぎ
 ~~~
 Tailwind勉強
-~~~
-
-## 🎑9/28(7ポモ/3.5H)
-☞学習：卒業制作
-- Tailwind学習(Next.js,Reactが必要だと...!?)
-☞明日へ引き継ぎ
-~~~
  プルリク時のルールを決める
  mergeから
 ~~~
@@ -1405,7 +1398,7 @@ Home画面 → 複数条件検索 → dishes#search → dishes#show
 ☞学習：翌朝早朝勉強
 
 ## 🎃10/8(9ポモ/4.5H)
-☞学習：
+☞学習：卒業制作
 `head -n 1950 db/seeds.rb | tail -n 20`
 `head -n ○行目 ファイル名 | tail -n ○行分`
 
@@ -1434,3 +1427,7 @@ git merge ブランチ名
 git push origin main
 ~~~
 
+## 🎃10/9(ポモ/H)
+☞学習：基本情報勉強会
+　メモ程度に、日本のIT企業数の記事を残す。
+　https://article.yahoo.co.jp/detail/d3583418557e114ce21abebdca3273ba3b404fe3
