@@ -1431,3 +1431,13 @@ git push origin main
 ☞学習：基本情報勉強会
 　メモ程度に、日本のIT企業数の記事を残す。
 　https://article.yahoo.co.jp/detail/d3583418557e114ce21abebdca3273ba3b404fe3
+
+## 🎃10/10(1ポモ/0.5H)
+☞学習：卒業制作(前日超過分)
+
+## 🎃10/11(11ポモ/5.5H)
+☞学習：卒業制作
+本番環境エラー解消。だが...進まない
+
+## 🎃10/12(0ポモ/1H)
+☞学習：controllerの見直しから(DishesController / SearchController / SearchResultController)
