@@ -1441,3 +1441,13 @@ git push origin main
 
 ## 🎃10/12(0ポモ/1H)
 ☞学習：controllerの見直しから(DishesController / SearchController / SearchResultController)
+
+## 🎃10/13(13ポモ/6.5H)
+☞学習：卒業制作
+
+### 📋 開発フロー
+1. ルーティング設計 → 全体の流れを決める
+2. モデル確認 → 検索ロジックの準備
+3. コントローラー実装 → リクエスト処理
+4. ビュー作成 → UI実装
+5. 動作確認 → テスト
