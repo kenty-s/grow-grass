@@ -1555,3 +1555,26 @@ MVP提出
 ユーザー招待、データベースに課金していたことが判明。
 - 卒業制作のDBをRenderからNeonへ
 - ミニアプリを一旦Renderから削除
+
+## 🎃10/26(5ポモ/2.5H)
+☞学習：卒業制作、VScode勉強会
+本リリースまでの週ごとのカラム作成
+
+## Neonへの移行メモ
+11月1日にやること
+サービスが復旧したら、すぐにマイグレーションを実行する必要があります：
+方法1：Renderのコンソールから（推奨）
+
+graduation_developmentのページを開く
+左サイドバーの**「Shell」**タブをクリック
+以下のコマンドを実行：
+
+bashrails db:migrate
+rails db:seed  # 初期データがあれば
+方法2：自動実行設定（今できる）
+
+graduation_developmentの**「Settings」**を開く
+**「Build Command」**セクションを探す
+以下を追加：
+
+bashbundle install && rails db:migrate
