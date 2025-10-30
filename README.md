@@ -1574,6 +1574,7 @@ MVP提出
 ☞学習：基本情報勉強会不参加回分復習(コロナ罹患休み)
 
 進数計算まとめ
+https://www.youtube.com/watch?v=acbZUSyqJks&list=PLEuyFWEF8u0NpqKakI3BYztLRuIfBUHtL&index=2
 [![Image from Gyazo](https://i.gyazo.com/1ac64e7ea1ca1764a8f00ef0d5d80c93.png)](https://gyazo.com/1ac64e7ea1ca1764a8f00ef0d5d80c93)
 
 
