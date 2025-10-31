@@ -1578,6 +1578,10 @@ https://www.youtube.com/watch?v=acbZUSyqJks&list=PLEuyFWEF8u0NpqKakI3BYztLRuIfBU
 
 [![Image from Gyazo](https://i.gyazo.com/1ac64e7ea1ca1764a8f00ef0d5d80c93.png)](https://gyazo.com/1ac64e7ea1ca1764a8f00ef0d5d80c93)
 
+## 🎃10/31(9ポモ/4.5H)
+☞学習：基本情報勉強会不参加回分復習,GithHubカリキュラム分草生やし※苦戦　(コロナ罹患有休)
+
+
 ## Neonへの移行メモ
 11月1日にやること
 サービスが復旧したら、すぐにマイグレーションを実行する必要があります：
