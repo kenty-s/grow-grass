@@ -1581,22 +1581,5 @@ https://www.youtube.com/watch?v=acbZUSyqJks&list=PLEuyFWEF8u0NpqKakI3BYztLRuIfBU
 ## 🎃10/31(9ポモ/4.5H)
 ☞学習：基本情報勉強会不参加回分復習,GithHubカリキュラム分草生やし※苦戦　(コロナ罹患有休)
 
-
-## Neonへの移行メモ
-11月1日にやること
-サービスが復旧したら、すぐにマイグレーションを実行する必要があります：
-方法1：Renderのコンソールから（推奨）
-
-graduation_developmentのページを開く
-左サイドバーの**「Shell」**タブをクリック
-以下のコマンドを実行：
-
-bashrails db:migrate
-rails db:seed  # 初期データがあれば
-方法2：自動実行設定（今できる）
-
-graduation_developmentの**「Settings」**を開く
-**「Build Command」**セクションを探す
-以下を追加：
-
-bashbundle install && rails db:migrate
+## 🎃11/1(4ポモ/2H)
+☞学習：卒業制作再デプロイ(課金中止による時間不足)
