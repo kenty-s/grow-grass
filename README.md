@@ -1590,3 +1590,30 @@ https://www.youtube.com/watch?v=acbZUSyqJks&list=PLEuyFWEF8u0NpqKakI3BYztLRuIfBU
 初歩of初歩ミス。
 マージしてるのになぜmainに反映されてないねん、と思ったらリモートからローカルに引き込めていなかった。
 'git pull origin main'忘れず。
+
+## 今回の学び
+### 1. Gemを追加した時の正しい手順
+# Gemfileに追加後
+`docker compose down -v`        # volumeもクリア
+`docker compose build web`      # 再ビルド
+`docker compose up -d`          # 起動
+
+### 2. Dockerのvolume管理
+`docker compose down` → コンテナのみ削除
+`docker compose down` -v → volumeも削除（古いデータをクリア）
+volumeに古い状態が残ると起動エラーの原因に
+
+### 3. よくあるエラーと対処
+`# "Could not find gem"` → volumeクリア
+`docker compose down -v && docker compose up -d`
+
+# "server is already running" → pidファイル削除
+rm -f tmp/pids/server.pid
+# または docker-compose.yml の command に追記:
+# rm -f /app/tmp/pids/server.pid &&
+
+### 4. トラブル時の確認コマンド
+`docker compose ps`          # 起動状態
+`docker compose logs web`    # エラーログ
+`docker compose ps -a`       # 停止済みコンテナも表示
+### ポイント: gem追加時は必ず docker compose down -v でクリーンな状態から起動する
