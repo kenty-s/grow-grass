@@ -1593,10 +1593,17 @@ https://www.youtube.com/watch?v=acbZUSyqJks&list=PLEuyFWEF8u0NpqKakI3BYztLRuIfBU
 
 ## 今回の学び
 ### 1. Gemを追加した時の正しい手順
-# Gemfileに追加後
-`docker compose down -v`        # volumeもクリア
-`docker compose build web`      # 再ビルド
-`docker compose up -d`          # 起動
+# Gemfileに追加後　☆重要☆
+`docker compose run --rm web bundle install`     #Gemfile.lockあれば削除して以下
+- 必須 `docker compose down -v`        # volumeもクリア
+- 必須 `docker compose build web`      # 再ビルド
+- 必須 `docker compose up -d`          # 起動
+# 1. データベース作成
+`docker compose exec web rails db:create`
+# 2. テーブル作成（全マイグレーション実行）
+`docker compose exec web rails db:migrate`
+# 3. サンプルデータ投入
+`docker compose exec web rails db:seed`
 
 ### 2. Dockerのvolume管理
 `docker compose down` → コンテナのみ削除
@@ -1617,3 +1624,16 @@ rm -f tmp/pids/server.pid
 `docker compose logs web`    # エラーログ
 `docker compose ps -a`       # 停止済みコンテナも表示
 ### ポイント: gem追加時は必ず docker compose down -v でクリーンな状態から起動する
+
+# gem導入時は再ビルド！！！
+
+次の自分へ。deviceインストールまで完了
+kenta@sakamoto:/RUNTEQ/graduation_development$ docker compose exec web rails g devise User
+      invoke  active_record
+      create    db/migrate/20251102064233_devise_create_users.rb
+      create    app/models/user.rb
+      invoke    test_unit
+      create      test/models/user_test.rb
+      create      test/fixtures/users.yml
+      insert    app/models/user.rb
+       route  devise_for :users
