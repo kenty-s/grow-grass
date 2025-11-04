@@ -1585,8 +1585,11 @@ https://www.youtube.com/watch?v=acbZUSyqJks&list=PLEuyFWEF8u0NpqKakI3BYztLRuIfBU
 ☞学習：卒業制作
 　複数アプリをRenderでデプロイしていたが課金中止したためアプリが落ちていたので、再度デプロイ
 
-## 🎃11/2(ポモ/H)
+## 🎃11/2(12ポモ/6H)
 ☞学習：卒業制作
+- gem "ahoy_matey" 実装 #HOMEにPVを仕組む(実導入すべきかは要検討)
+- gem "devise"インストール #明日以降Userモデル導入等
+
 初歩of初歩ミス。
 マージしてるのになぜmainに反映されてないねん、と思ったらリモートからローカルに引き込めていなかった。
 'git pull origin main'忘れず。
@@ -1637,3 +1640,12 @@ kenta@sakamoto:/RUNTEQ/graduation_development$ docker compose exec web rails g d
       create      test/fixtures/users.yml
       insert    app/models/user.rb
        route  devise_for :users
+
+## 🎃11/3(4ポモ/2H)
+☞学習：基本情報勉強(基礎理論)
+
+## 🎃11/4(3ポモ/1.5H)
+☞学習：基本情報勉強(基礎理論)
+
+## 🎃11/5(ポモ/H)
+☞学習：
