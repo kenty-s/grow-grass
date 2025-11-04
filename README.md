@@ -1581,11 +1581,11 @@ https://www.youtube.com/watch?v=acbZUSyqJks&list=PLEuyFWEF8u0NpqKakI3BYztLRuIfBU
 ## 🎃10/31(9ポモ/4.5H)
 ☞学習：基本情報勉強会不参加回分復習,GithHubカリキュラム分草生やし※苦戦　(コロナ罹患有休)
 
-## 🎃11/1(4ポモ/2H)
+## 🍁11/1(4ポモ/2H)
 ☞学習：卒業制作
 　複数アプリをRenderでデプロイしていたが課金中止したためアプリが落ちていたので、再度デプロイ
 
-## 🎃11/2(12ポモ/6H)
+## 🍁11/2(12ポモ/6H)
 ☞学習：卒業制作
 - gem "ahoy_matey" 実装 #HOMEにPVを仕組む(実導入すべきかは要検討)
 - gem "devise"インストール #明日以降Userモデル導入等
@@ -1641,11 +1641,12 @@ kenta@sakamoto:/RUNTEQ/graduation_development$ docker compose exec web rails g d
       insert    app/models/user.rb
        route  devise_for :users
 
-## 🎃11/3(4ポモ/2H)
+## 🍁11/3(4ポモ/2H)
 ☞学習：基本情報勉強(基礎理論)
 
-## 🎃11/4(3ポモ/1.5H)
+## 🍁11/4(3ポモ/1.5H)
 ☞学習：基本情報勉強(基礎理論)
+仕事上、今週はあまり勉強出来なさそう...
 
-## 🎃11/5(ポモ/H)
+## 🍁11/5(ポモ/H)
 ☞学習：
