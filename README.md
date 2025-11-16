@@ -1657,3 +1657,6 @@ kenta@sakamoto:/RUNTEQ/graduation_development$ docker compose exec web rails g d
 ## 🍁11/15(9ポモ/4.5H)
 ☞学習：卒業制作(Project再考)、自己分析
 また体調を崩し始めた、、、なかなか時間をとることが難しそう、、、
+
+## 🍁11/16(ポモ/H)
+☞学習：
