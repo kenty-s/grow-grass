@@ -7,68 +7,68 @@
 4/14~ 学習README始動
 
 R7
-## 🌸4/14(5ポモ,2.5H)　Rails基礎、githubの草生やしを覚える
+## 🌸4/14(5ポモ,2.5H) Rails基礎、githubの草生やしを覚える
 ☞学習：header,footer
-　課題：footerが反映されない
-　原因：footerのみrender記述漏れ(application.html.erb)
+ 課題：footerが反映されない
+ 原因：footerのみrender記述漏れ(application.html.erb)
 
-## 🌸4/15(6ポモ,3H)　Rails基礎
+## 🌸4/15(6ポモ,3H) Rails基礎
 ☞学習：ユーザー登録機能実装(gem 'sorcery')
-　課題：適切な言語、コードを理解出来ていない(浮かんでいない)
+ 課題：適切な言語、コードを理解出来ていない(浮かんでいない)
   メモ：GemはRailsのパッケージ。gem 'sorcery'はユーザー登録、ログインなどに必用な最低限のファイルを作成
 
-## 🌸4/16(6ポモ,3H)　Rails基礎
+## 🌸4/16(6ポモ,3H) Rails基礎
 ☞学習：ユーザー登録機能実装(ユーザー登録、ログイン)
-  参考：[Rails]ユーザ登録・ログイン　2/20
+  参考：[Rails]ユーザ登録・ログイン 2/20
   https://zenn.dev/redheadchloe/articles/8e3b3b4eb358a2#bcrypt%E3%82%92%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E3%81%99%E3%82%8B
 
-## 🌸4/17(7ポモ,3.5H)　GitHub/Rails基礎
+## 🌸4/17(7ポモ,3.5H) GitHub/Rails基礎
 ☞学習：草の生やし方について。Railsの基本。
-　課題：草が生えない
-　原因：defaultがmainとなっていた
-　メモ：
-　ルーティング…URLとコントローラーをつなぐ案内係
-　コントローラー…データを受け取って処理し、ビューに渡す指令係
-　ビュー…ユーザーに見せるHTMLを作る
-　モデル…データベースでやり取りする頭脳
+ 課題：草が生えない
+ 原因：defaultがmainとなっていた
+ メモ：
+ ルーティング…URLとコントローラーをつなぐ案内係
+ コントローラー…データを受け取って処理し、ビューに渡す指令係
+ ビュー…ユーザーに見せるHTMLを作る
+ モデル…データベースでやり取りする頭脳
   マイグレーションファイル…データベースの設計図
   (テーブル作成、カラムを追加・変更・削除等)
 
-## 🌸4/18(6ポモ,3H)　Rails基礎
+## 🌸4/18(6ポモ,3H) Rails基礎
 ☞学習：ユーザー登録の理解
-　感想：コードの理解度確認にAIを活用したが見込みが凡そあっており達成感○
-　　　　しかし、英語を知っていることありきだなと改めて実感。
+ 感想：コードの理解度確認にAIを活用したが見込みが凡そあっており達成感○
+    しかし、英語を知っていることありきだなと改めて実感。
 
-## 🌸4/19(15ポモ,7.5H +HR1.5H)　WEB技術入門
+## 🌸4/19(15ポモ,7.5H +HR1.5H) WEB技術入門
 ☞学習：WEB技術入門の復習
-　感想：スクールのHRでの学習に紐づく内容復習
-　　　　WEBについて無知を実感。明日も復習を予定
+ 感想：スクールのHRでの学習に紐づく内容復習
+    WEBについて無知を実感。明日も復習を予定
 
-## 🌸4/20(0ポモ,0H)　いちご狩り🍓
+## 🌸4/20(0ポモ,0H) いちご狩り🍓
 ☞感想：Web予約対応されているのに、当日50組ほどの予約内容を全て紙に手書き転記されていた。せっかくのWeb対応も現場の使い手が
 追いつかなければ効率化に繋がらないのか…
 
-## 🌸4/21(8ポモ,4H)　WEB技術入門
+## 🌸4/21(8ポモ,4H) WEB技術入門
 ☞学習：WEB技術入門の復習
-　感想：前日をリフレッシュにあてたので、4:00起床で学習＋夜寝かしつけ後の学習。(HTTP通信について学習）
+ 感想：前日をリフレッシュにあてたので、4:00起床で学習＋夜寝かしつけ後の学習。(HTTP通信について学習）
 
-## 🌸4/22(3ポモ,1.5H)　WEB技術入門
+## 🌸4/22(3ポモ,1.5H) WEB技術入門
 ☞学習：本日は4:50起床。早起き型にシフトしたいがなかなか起きれない…
 
-## 🌸4/23(4ポモ,2H)　WEB技術入門
+## 🌸4/23(4ポモ,2H) WEB技術入門
 ☞学習：Webアプリについて
-　　　　●アーキテクチャスタイル：Webアプリやシステム設計の基本方針
-　　　　●３層アーキテクチャ：
-　　　　　１．プレゼンテーション層(ユーザーとアプリのインターフェス)
-　　　　　２．アプリケーション層(ビジネスロジック)
-　　　　　３．データ層(データ保存と取得。)
-　　　　●MVC：
-　　　　　Model(アプリのデータとビジネスロックの管理)、View(データの表示)、Controller(ModelとViewをつなぐ)
-       ●クッキーとキャッシュの違い
-       　クッキー：自ら入力した情報
-       　キャッシュ：閲覧したページの画像やファイルを保存
+    ●アーキテクチャスタイル：Webアプリやシステム設計の基本方針
+    ●３層アーキテクチャ：
+     １．プレゼンテーション層(ユーザーとアプリのインターフェス)
+     ２．アプリケーション層(ビジネスロジック)
+     ３．データ層(データ保存と取得。)
+    ●MVC：
+     Model(アプリのデータとビジネスロックの管理)、View(データの表示)、Controller(ModelとViewをつなぐ)
+  ●クッキーとキャッシュの違い
+   クッキー：自ら入力した情報
+   キャッシュ：閲覧したページの画像やファイルを保存
 
-## 🌸4/24(8ポモ,4H)　WEB技術入門
+## 🌸4/24(8ポモ,4H) WEB技術入門
 ☞学習：AM 5:00~6:30
   JSON…軽量データ交換フォーマット
   https://qiita.com/skm_bnn/items/ecf3d0fe1188e666d079
@@ -87,47 +87,47 @@ R7
 }
 
 ☞学習：PM 8:00~9:00
-       【スクールイベント：はじめてのインフラ入門】
-       ・可用性(アベイラビリティ)…システム・サービス
-       を継続して利用できる度合・能力
-       ・拡張性(スケーラビリティ)…サーバー台数増減や性能上げ下げ
-       ・スクレイピング…ウェブサイトからデータを自動抽出
-       ・SSH…遠くのサーバーから安全に遠隔操作。
-             特定のIPアドレスでしかアクセスできない等も可能。
-       PM 9:00~10:00
-        　スクール同期アウトプット会(初回)
-        ・進捗報告やGitHub共有、勉強の進め方など
-        ・次回4/29(火)
-       PM 10:00~10:30　WEB技術入門
+  【スクールイベント：はじめてのインフラ入門】
+  ・可用性(アベイラビリティ)…システム・サービス
+  を継続して利用できる度合・能力
+  ・拡張性(スケーラビリティ)…サーバー台数増減や性能上げ下げ
+  ・スクレイピング…ウェブサイトからデータを自動抽出
+  ・SSH…遠くのサーバーから安全に遠隔操作。
+        特定のIPアドレスでしかアクセスできない等も可能。
+  PM 9:00~10:00
+    スクール同期アウトプット会(初回)
+   ・進捗報告やGitHub共有、勉強の進め方など
+   ・次回4/29(火)
+  PM 10:00~10:30 WEB技術入門
 
-## 🌸4/25(2.5H) スクール懇親会　＠Discord
-　　　　・他期との交流(勉強方法、現状報告等)
+## 🌸4/25(2.5H) スクール懇親会 ＠Discord
+    ・他期との交流(勉強方法、現状報告等)
 
 ## 🌸4/26(15ポモ,8H ※未計測ポモ多)AM WEB技術入門,PM Rails基礎
 ☞学習：セキュリティ関係
-　　　　〈セキュリティの基本要素〉
-　　　　・機密性：情報が許可されたユーザーだけアクセスできる
-　　　　・完全性：情報が正確で安全であり、改ざんされていないことを保証
-　　　　・可用性：必要な時に情報にアクセスできる
-　　　　〈攻撃手法〉
-　　　　・ブルートフォース攻撃：可能なパスワード全組み合わせを試す総当たり攻撃
-　　　　・SQLインジェクション：悪意あるSQLコードを入力フォーム等に挿入し、DBに不正操作を行う。非公開データの閲覧等。
-　　　　・XSS：悪意あるスクリプトをWebページに埋め込みユーザーのブラウザで実行。セッション情報やCookieなど盗む。
-　　　　・CSRF:ユーザーに意図しないリクエストを送信させる。権限の悪用。
-　　　　・セッションハイジャック：セッションIDを盗み、セッションを乗っ取る。
+    〈セキュリティの基本要素〉
+    ・機密性：情報が許可されたユーザーだけアクセスできる
+    ・完全性：情報が正確で安全であり、改ざんされていないことを保証
+    ・可用性：必要な時に情報にアクセスできる
+    〈攻撃手法〉
+    ・ブルートフォース攻撃：可能なパスワード全組み合わせを試す総当たり攻撃
+    ・SQLインジェクション：悪意あるSQLコードを入力フォーム等に挿入し、DBに不正操作を行う。非公開データの閲覧等。
+    ・XSS：悪意あるスクリプトをWebページに埋め込みユーザーのブラウザで実行。セッション情報やCookieなど盗む。
+    ・CSRF:ユーザーに意図しないリクエストを送信させる。権限の悪用。
+    ・セッションハイジャック：セッションIDを盗み、セッションを乗っ取る。
 
-       ・Rails ファイルあれこれ
-       　config(configure:設定する、構成する)
-         ☛ Railsアプリ全体の設定管理場所(ルールや初期設定を書く)
-         form_with
-         ☛ 自動的なURL生成。Ajax対応(リロードせず一っ部だけ更新する技術)
-         not_authenticated
-         ☛ ユーザーが認証(ログイン)していない時に呼び出されるメソッド
+  ・Rails ファイルあれこれ
+   config(configure:設定する、構成する)
+    ☛ Railsアプリ全体の設定管理場所(ルールや初期設定を書く)
+    form_with
+    ☛ 自動的なURL生成。Ajax対応(リロードせず一っ部だけ更新する技術)
+    not_authenticated
+    ☛ ユーザーが認証(ログイン)していない時に呼び出されるメソッド
 ☞Rubyイベント：急遽参加。Ruby、Railsの学び方(覚えるより調査方法を抑える)を知れたことが大収穫
 ☞アウトプット会予定：4/29 21:00~に決定。Railsの流れについてまとめてアウトプットしたい。
 
-## 🌸4/27(5ポモ,2.5H)　片道1.5Hの遠出後のため◎
-☞学習：Railsのファイル相関まとめ(Notionへ記述)　
+## 🌸4/27(5ポモ,2.5H) 片道1.5Hの遠出後のため◎
+☞学習：Railsのファイル相関まとめ(Notionへ記述) 
 ※同期アウトプット会で報告予定
 ステップ１：アプリ本体(/app)に親しむ
 ステップ2：ルーティングの意味を知る
@@ -137,31 +137,31 @@ R7
 
 ## 🌸4/28(6ポモ,3H) 同期イベント立ち上げ
 ☞学習：Rails基礎諸々
-　　　　同期イベントを画策中
+    同期イベントを画策中
 
 ## 🌸4/29(2ポモ,4H) 同期アウトプット会(参加者8名)
 ☞学習：アウトプット会
-　　　　・マークダウン記法について
-　　　　https://www.genspark.ai/autopilotagent_viewer?id=afab9676-f374-45f5-8c2a-45d9d9549c97
-　　　　・すーさん:基本情報
-　　　　https://www.youtube.com/@kihonzyouhou
+    ・マークダウン記法について
+    https://www.genspark.ai/autopilotagent_viewer?id=afab9676-f374-45f5-8c2a-45d9d9549c97
+    ・すーさん:基本情報
+    https://www.youtube.com/@kihonzyouhou
 
 ## 🌸4/30(7ポモ,3.5H)
 ☞学習：Rails基礎
-　　　　・未ログイン画面への遷移
-　　　　　久々のプルリクエスト。このREADMEをプッシュする方法と同じながらやり方が不安であったので、やはり継続して触ることが大事なんだと痛感。
-　　　　・READMEでの学習日誌であるとマークダウン記法を覚えられないため、改善策も考えるべきだろうか、、、
+    ・未ログイン画面への遷移
+     久々のプルリクエスト。このREADMEをプッシュする方法と同じながらやり方が不安であったので、やはり継続して触ることが大事なんだと痛感。
+    ・READMEでの学習日誌であるとマークダウン記法を覚えられないため、改善策も考えるべきだろうか、、、
 
 ## 🎏5/1(3ポモ,1.5H)
-☞学習：Rails基礎　
-　　　　ログアウト機能実装に苦戦中
-　　　　エラー：Unable to find link or button "ログアウト"
+☞学習：Rails基礎 
+    ログアウト機能実装に苦戦中
+    エラー：Unable to find link or button "ログアウト"
 
 ## 🎏5/2(3ポモ,1.5H)
-☞学習：Rails基礎　ログアウト機能実装
-　　　　遂ににクリア
-　　　　変更しなくて良い箇所を変更しており、関係のない箇所を追加修正していたため、エラーの連続であったことが発覚。
-　　　　シンプルに試行することを心がける。
+☞学習：Rails基礎 ログアウト機能実装
+    遂ににクリア
+    変更しなくて良い箇所を変更しており、関係のない箇所を追加修正していたため、エラーの連続であったことが発覚。
+    シンプルに試行することを心がける。
 
 ## 🎏5/3(7ポモ,3.5H)
 ☞学習：i18n 多言語化
@@ -245,82 +245,82 @@ VScode においてマークダウン記法を使えることを知ったので�
 ☞同期懇親会
 
 ## 🎏5/7(7ポモ,3.5H)
-☞学習：Rails基礎　掲示板の一覧機能作成
-　多少エラーが読めるようになってきたことが収穫
+☞学習：Rails基礎 掲示板の一覧機能作成
+ 多少エラーが読めるようになってきたことが収穫
 
 ## 🎏5/8(6ポモ,3H)
-☞学習：Rails基礎　掲示板の一覧機能作成
-       プルリクエストが通らなかった理由として、
-       /RUNTEQ/rails_basic/74174_kenty-s_basic_rails_basic/app/controllers/users_controller.rb
-       における誤った記述であることが判明。
-       正　`t('users.create.success')`
-       誤　`t('user_sessions.create.success')`
-       ユーザー登録が出来なかった場合について
-       `t('users.create.failure')`
-       と記述していることを考えると、この発想にはすぐに至れるべきであった。
-       ~~~
-       def create
+☞学習：Rails基礎 掲示板の一覧機能作成
+  プルリクエストが通らなかった理由として、
+  /RUNTEQ/rails_basic/74174_kenty-s_basic_rails_basic/app/controllers/users_controller.rb
+  における誤った記述であることが判明。
+  正 `t('users.create.success')`
+  誤 `t('user_sessions.create.success')`
+  ユーザー登録が出来なかった場合について
+  `t('users.create.failure')`
+  と記述していることを考えると、この発想にはすぐに至れるべきであった。
+  ~~~
+  def create
     @user = User.new(user_params)
     if @user.save
-      session[:user_id] = @user.id
-      redirect_to root_path, success: t('users.create.success')
+ session[:user_id] = @user.id
+ redirect_to root_path, success: t('users.create.success')
     else
-      flash.now[:danger] = t('users.create.failure')
-      render :new, status: :unprocessable_entity
+ flash.now[:danger] = t('users.create.failure')
+ render :new, status: :unprocessable_entity
     end
   end
   ~~~
 
 ## 🎏5/9(4ポモ,2H)
 ☞学習：掲示板作成機能
-　◎git commitを行うタイミング
-　・　ファイルを生成・削除したタイミング
-　・　実装が一区切り付いたタイミング
-　・　正常に動くのを確認したタイミング
-　・　修正したタイミング
-　・　要件を満たす実装が完了したタイミング
-　◎commitメッセージ
-　・add：新規ファイル・新規機能追加
-　・update：機能のアップデート
-　・fix：バグの修正
-　・remove：ファイルの削除
+ ◎git commitを行うタイミング
+ ・ ファイルを生成・削除したタイミング
+ ・ 実装が一区切り付いたタイミング
+ ・ 正常に動くのを確認したタイミング
+ ・ 修正したタイミング
+ ・ 要件を満たす実装が完了したタイミング
+ ◎commitメッセージ
+ ・add：新規ファイル・新規機能追加
+ ・update：機能のアップデート
+ ・fix：バグの修正
+ ・remove：ファイルの削除
 
 ## 🎏5/10(12ポモ,6H)
 ☞学習：掲示板作成機能
-       掲示板作成・作成ミス両面を実装する課題だが、プルリクエストが通らない(実際には実装出来ているにもかかわらず)
+  掲示板作成・作成ミス両面を実装する課題だが、プルリクエストが通らない(実際には実装出来ているにもかかわらず)
 
 ## 🎏5/11(4ポモ,2H)
 ☞学習：掲示板作成機能
-       上記で示されていたエラー原因が分からず、スペースなどLintエラーを直すだけでプルリクが通った。謎が深まり、もやもやとする、、、
+  上記で示されていたエラー原因が分からず、スペースなどLintエラーを直すだけでプルリクが通った。謎が深まり、もやもやとする、、、
 
 ## 🎏5/12(6ポモ,3H)
 ☞学習：フォーム入力時エラー情報を個別表示
 ☞質問：以下ChatGPTに投げて使用
-      貴方は優秀なRuby on Railsのエンジニアです。
-      私はRuby on Railsを学び始めた初学者です。
-      以下のコードの解説をお願いします。また、システムテストのコードであればテストコードと同様の操作を手動でも行ってチェックしたいので、ブラウザ上での操作手順を教えてください。よろしくお願いいたします。
-      ==========
-     （コード貼り付け）
-      `render`
-      ✅ 意味：コントローラーやビューで **「これを表示して！」**と指示する。
-      ✅ よくある使い方：
-      # コントローラーで：
-      render :new       # new.html.erb を表示
-      # ビューで部分テンプレートを表示：
-      <%= render 'form' %>  # _form.html.erb を表示
-      ✅ ここで使うぞ！が分かる方法：
-      ・明示的に表示ビューを指定したいとき。
-      ・部分テンプレート（パーシャル）を使いたいとき。
-      ・条件によって表示を切り替えたいとき。
+ 貴方は優秀なRuby on Railsのエンジニアです。
+ 私はRuby on Railsを学び始めた初学者です。
+ 以下のコードの解説をお願いします。また、システムテストのコードであればテストコードと同様の操作を手動でも行ってチェックしたいので、ブラウザ上での操作手順を教えてください。よろしくお願いいたします。
+ ==========
+（コード貼り付け）
+ `render`
+ ✅ 意味：コントローラーやビューで **「これを表示して！」**と指示する。
+ ✅ よくある使い方：
+ # コントローラーで：
+ render :new       # new.html.erb を表示
+ # ビューで部分テンプレートを表示：
+ <%= render 'form' %>  # _form.html.erb を表示
+ ✅ ここで使うぞ！が分かる方法：
+ ・明示的に表示ビューを指定したいとき。
+ ・部分テンプレート（パーシャル）を使いたいとき。
+ ・条件によって表示を切り替えたいとき。
 
 ## 🎏5/13(5ポモ,2.5H)
 ☞学習：掲示板の画像アップロード機能
-　　　　gem 'carrierwave'のGitHub読み込み
-　　　　（Providing a default URL から）
+    gem 'carrierwave'のGitHub読み込み
+    （Providing a default URL から）
 
 ## 🎏5/14(5ポモ,2.5H)
 ☞学習：掲示板の画像アップロード機能
-        gem install carrierwave:2.2.2にてローカルでcarrierwaveをインストールできるが、webが起動されずDocker コンテナ内で インストールされない
+   gem install carrierwave:2.2.2にてローカルでcarrierwaveをインストールできるが、webが起動されずDocker コンテナ内で インストールされない
 
 ## 🎏5/15(9ポモ,4.5H)
 ☞学習：掲示板の画像アップロード機能
@@ -328,7 +328,7 @@ VScode においてマークダウン記法を使えることを知ったので�
 #Windowsの中にwslを用いてubuntuという別のOSをインストールし、そのubuntuの中にさらにDockerコンテナという"別のPCのような隔離された環境"を作成する
 というようなことを行っている
 
-       
+  
 | 項目                | `bundle install`                        | `gem install carrierwave`                        |
 | -------------      | --------------------------------------- | ------------------------------------------------ |
 | 対象                | `Gemfile` に書かれた全ての gem                  | 指定した gem（1つだけ）                                   |
@@ -338,13 +338,13 @@ VScode においてマークダウン記法を使えることを知ったので�
 
 ## 🎏5/16(7ポモ,3.5H)
 ☞学習：掲示板詳細画面の追加/コメント機能の実装
-       概要、インプットフェーズ
+  概要、インプットフェーズ
 
 ## 🎏5/17(5ポモ,2.5H)
 ☞学習：掲示板詳細画面の追加/コメント機能の実装
-       boards#index #はコントローラーとアクションの区切り記号
-      
-      | キー             | 内容（役割）                       |
+  boards#index #はコントローラーとアクションの区切り記号
+ 
+ | キー             | 内容（役割）                       |
 | -------------- | ---------------------------- |
 | `activerecord` | モデル名・属性名など、ActiveRecord関連の翻訳 |
 | `helpers`      | `form_with` などのヘルパー関連の翻訳     |
@@ -369,22 +369,22 @@ VScode においてマークダウン記法を使えることを知ったので�
 | `RoutingError`                           | ルート（URL）が存在しない                   | - `routes.rb` に定義していない URL にアクセスした              |
 | `Template::Error`                        | ビュー内のエラー（ERBなど）                  | - `<%= %>` 内の Ruby が間違っている                      |
 | `Webpacker::Manifest::MissingEntryError` | JSやCSSが読み込めない                    | - `yarn build` などが必要、アセットのビルド忘れ                 |
-#☆注意☆　`ActiveRecord::PendingMigrationError`はDockerでマイグレーションを行う場合`docker-compose exec web rails db:migrate`
+#☆注意☆ `ActiveRecord::PendingMigrationError`はDockerでマイグレーションを行う場合`docker-compose exec web rails db:migrate`
 
 自動レビュー実行前エラーに久しぶりにかかり、脱出できず。
 
 ## 🎏5/19(7ポモ,3.5H)
 ☞学習：掲示板詳細画面の追加/コメント機能の実装
-       エラー修正
+  エラー修正
 
 ## 🎏5/20(9ポモ,4.5H)
 ☞学習：タイトルを動的に出力する
-　　　　想定時間＋1H　エラー対応に時間を要した
+    想定時間＋1H エラー対応に時間を要した
 
 ## 🎏5/21(9ポモ,4.5H)
 ☞学習：掲示板の編集、削除機能の実装
-      RailsのRESTfulなアクションの一般的な並び順
-      index → show → new → create → edit → update → destroy
+ RailsのRESTfulなアクションの一般的な並び順
+ index → show → new → create → edit → update → destroy
 
 ## 🎏5/22(5ポモ,2.5H)
 ☞学習：ブックマーク機能の追加
@@ -395,8 +395,8 @@ VScode においてマークダウン記法を使えることを知ったので�
 
 ## 🎏5/24(21ポモ,10.5H)
 ☞学習：ブックマークボタンのajax化
-       コメント投稿、削除機能のajax化
-       掲示板のページネーション
+  コメント投稿、削除機能のajax化
+  掲示板のページネーション
 Gemfileインストールおさらい
 1️⃣ Gemfile に turbo-rails を追加
 gem 'turbo-rails', '1.1.1'
@@ -454,14 +454,14 @@ docker compose exec web bin/dev
 
 ## 🎏5/25(8ポモ,4H)
 ☞学習：掲示板のページネーション
-       公式ドキュメントの読み直し、解答の再確認が必要
+  公式ドキュメントの読み直し、解答の再確認が必要
 
 ## 🎏5/26(4ポモ,2H)
 ☞学習：kaminari公式ドキュメントREADME読み直し、掲示板の検索機能を実装
 
 ## 🎏5/27(2ポモ,1H)
 ☞学習：掲示板の検索機能を実装
-       公式ドキュメントの読み方がやはり不明
+  公式ドキュメントの読み方がやはり不明
 
 ## 🎏5/28(5ポモ,2.5H)
 ☞学習：
@@ -512,19 +512,19 @@ end
 
 ## 🎏5/31(15ポモ,7.5H)
 ☞学習：パスワードリセット機能の実装
-       GitHubの公式ドキュメントについて
-       まずは一次ソースを見る(面接でも聞かれる)
-       ⇒　分からなければQuiitaやZennで確認
-       ※　卒業段階でも一次ソースで完璧理解までは求められない
+  GitHubの公式ドキュメントについて
+  まずは一次ソースを見る(面接でも聞かれる)
+  ⇒ 分からなければQuiitaやZennで確認
+  ※ 卒業段階でも一次ソースで完璧理解までは求められない
 
-       ###WSL上のプロジェクトディレクトリに書き込み権限がない
-       ~を保存できませんでした。
-       ファイル ~を書き込むことができません (NoPermissions (FileSystemError): Error:~/migrate/~)
-       ###解決方法
-       `sudo chown -R $(whoami):$(whoami) /RUNTEQ/rails_basic/74174_kenty-s_basic_rails_basic`
+  ###WSL上のプロジェクトディレクトリに書き込み権限がない
+  ~を保存できませんでした。
+  ファイル ~を書き込むことができません (NoPermissions (FileSystemError): Error:~/migrate/~)
+  ###解決方法
+  `sudo chown -R $(whoami):$(whoami) /RUNTEQ/rails_basic/74174_kenty-s_basic_rails_basic`
 
-       (Sorceryでパスワードリセット機能を実装する)
-       https://note.com/wattan11/n/n350a6923c4d5
+  (Sorceryでパスワードリセット機能を実装する)
+  https://note.com/wattan11/n/n350a6923c4d5
 
 ## ✅ ネストとは何か？（Rails）
 
@@ -539,10 +539,11 @@ end
 resources :boards do
   resources :comments
 end
+```
 
 ## ☔6/1(6ポモ,3H)
 ☞学習：パスワードリセット機能の実装
-       `token`　本人確認のためのURL
+  `token` 本人確認のためのURL
 
 ## ☔6/2(7ポモ,3.5H)
 ☞学習：パスワードリセット機能の実装
@@ -721,16 +722,16 @@ kenta@sakamoto:/RUNTEQ/rails_basic/74174_kenty-s_basic_rails_basic$ ls
 バリデーションエラー等、どのような理由で更新に失敗したかを特定できる。
 
 ## ☔6/23(11ポモ,5.5H)
-☞学習：RSpec入門演習　RSpecのセットアップ
+☞学習：RSpec入門演習 RSpecのセットアップ
 
 ## ☔6/24(4ポモ,2H)
-☞学習：RSpec入門演習　モデルスペック、システムスペック
+☞学習：RSpec入門演習 モデルスペック、システムスペック
 
 ## ☔6/25(10ポモ,5H)
-☞学習：RSpec入門演習　システムスペック
+☞学習：RSpec入門演習 システムスペック
 
 ## ☔6/26(6ポモ,3H)
-☞学習：RSpec入門演習　RSpecの修正
+☞学習：RSpec入門演習 RSpecの修正
 
 ## ☔6/27(5ポモ,2.5H)
 ☞学習：RSpecの修正,基礎STEP総復習
@@ -768,9 +769,9 @@ https://school.runteq.jp/v3/curriculums/rails_basic/chapters/18
 https://school.runteq.jp/v3/curriculums/rails_basic/chapters/14
 
 ☞面談：CA面談
-　　　　ここまで来てる人は大体卒業できている(卒業できない人はそれ以前で挫折)
-　　　　フルリモートなら自分からキャッチアップ、秀でた技術力が必要
-　　　　☆ユーザー視点のアプリが減ってきている。アプリを触りまくるのはGood
+    ここまで来てる人は大体卒業できている(卒業できない人はそれ以前で挫折)
+    フルリモートなら自分からキャッチアップ、秀でた技術力が必要
+    ☆ユーザー視点のアプリが減ってきている。アプリを触りまくるのはGood
 
 ## 🌊7/6(6ポモ,3H)
 ☞学習：中間試験Rails
@@ -852,7 +853,7 @@ end
 @post = Post.new # Postクラスのインスタンス（中身はまだ空）
 @post.title = "新しいタイトル" # インスタンスの属性に値を設定
 
-# ||=　(パイプパイプイコール)
+# ||= (パイプパイプイコール)
 論理OR演算子 (||) と代入演算子 (=)
 もし左辺が nil または false ならば、右辺の値を左辺に代入する
 「一度だけ計算（または取得）して使い回す」 というパターンを非常に効率的かつ簡潔に記述するための強力な演算子
@@ -873,8 +874,8 @@ end
 claudeを触ってみたり、Notionにまとめてみたりetc
 
 ## 🌊7/16(6ポモ,3H)
-☞学習：アプリ開発カリキュラム　5基本機能、6高度な機能、7画面設計、8ER図の作成　ClaudeとFigma初使用
-卒業制作　README作成スタート
+☞学習：アプリ開発カリキュラム 5基本機能、6高度な機能、7画面設計、8ER図の作成 ClaudeとFigma初使用
+卒業制作 README作成スタート
 
 ## 🌊7/17(5ポモ,2.5H)
 ☞学習：Rails応用環境構築、1画像挿入時のバグ修正
@@ -902,8 +903,8 @@ bundle install
 bin/rails server
 ☞技術面談：プルリクについて
 未解決事案
-- ソース管理　何も存在していない。
-- GitHub　なぜ初期がmaster？mainがない
+- ソース管理 何も存在していない。
+- GitHub なぜ初期がmaster？mainがない
 
 ## 🌊7/23(9ポモ,4.5H)
 卒業制作はNextここから。プルリクすること。
@@ -912,8 +913,8 @@ bundle install
 bin/rails server
 ☞技術面談：プルリクについて
 未解決事案
-- ソース管理　何も存在していない。
-- GitHub　なぜ初期がmaster？mainがない
+- ソース管理 何も存在していない。
+- GitHub なぜ初期がmaster？mainがない
 
 ## 🌊7/24(6ポモ,3H)
 ☞学習：卒業制作
@@ -945,7 +946,7 @@ Rails、Rubyのバージョンをどうすべきか分からなくなり混乱..
 | 以上 | `_gteq` | 以上 |
 
 ☞動画：https://www.youtube.com/shorts/vvht_sTsYWA
-マジックナンバー(数字直打ち)を避ける　# 保守性向上
+マジックナンバー(数字直打ち)を避ける # 保守性向上
 最近はRUNTEQのほかにTECHWORLDやIT ビギナーズ -プログラミング塾-を視聴
 隙間で情報を取っていきたい
 
@@ -966,11 +967,11 @@ Rails、Rubyのバージョンをどうすべきか分からなくなり混乱..
 ☞学習：Rails5
 
 ## 🏔8/2
-☞イベント：RUNTEQ_path2025　https://path-app.runteq.jp/
+☞イベント：RUNTEQ_path2025 https://path-app.runteq.jp/
 直前まで悩んだ末、行くと決め始発～夜行バスで弾丸参加
 エンジニアとしてキャリア形成、AIとの向き合い方、人間力の大切さ、仲間と見える関係ができた心強さ、アプリ制作背景や評価者の視点など
 勉強することが非常に多く本当に参加してよかった価値あるイベントだった
-「話したい」と決めていた登壇者、運営陣、受講生、卒業生　全員と会話することができ、今回のイベントにおける目標を達成でき、
+「話したい」と決めていた登壇者、運営陣、受講生、卒業生 全員と会話することができ、今回のイベントにおける目標を達成でき、
 次につながる関係も作ることができた
 - 詳細はNotionにメモ
 
@@ -1054,7 +1055,7 @@ f.input_field → シンプルな構造で要素が安定
 
 ## 🏔8/12(5ポモ,2.5H)
 ☞学習：Rails7復習、Rails8
-`change_column` には　`def change` - 変化を加える
+`change_column` には `def change` - 変化を加える
 radioボタン - enumで列挙
 ex)
 ~~~
@@ -1174,7 +1175,7 @@ AIに遊ばれている
 ## 🎑9/1(7ポモ,3.5H)
 ☞学習：卒業制作画面遷移図
   面談：プルリクはissueとつなげられる(実務で使うが、RUNTEQで使用はなし)
-  　　　https://docs.github.com/ja/issues/tracking-your-work-with-issues/using-issues/linking-a-pull-request-to-an-issue
+     https://docs.github.com/ja/issues/tracking-your-work-with-issues/using-issues/linking-a-pull-request-to-an-issue
 
 ## 🎑9/2(5ポモ,2.5H)
 ☞学習：卒業制作画面遷移図
@@ -1259,8 +1260,8 @@ https://miniapp-week.onrender.com/
 - renderのDBは制限あり。neon活用も検討。
 
 ## 🎑9/23(4ポモ/2H +3H(RUNTEQイベント))
-☞学習：【Day2】実況！アプリ開発ライブコーディング～Gem導入、実装編～　視聴
-　　　　卒業制作
+☞学習：【Day2】実況！アプリ開発ライブコーディング～Gem導入、実装編～ 視聴
+    卒業制作
 ## 開発フローとGit管理
 
 - **1issue1branch** の原則で作業を進める
@@ -1297,8 +1298,8 @@ https://miniapp-week.onrender.com/
 
 ## 🎑9/25(4ポモ/2H+2H)
 ☞学習：ミニアプリウィーク閉会式、基本情報勉強会(アルゴリズム、プログラミング)
-- AIブラウザ Dia　を導入 https://www.diabrowser.com/
-- アイコン　https://blush.design/collections/open-peeps/open-peeps
+- AIブラウザ Dia を導入 https://www.diabrowser.com/
+- アイコン https://blush.design/collections/open-peeps/open-peeps
 
 ## 🎑9/26(2ポモ/1H)
 ☞学習：卒業制作
@@ -1307,8 +1308,8 @@ https://miniapp-week.onrender.com/
 ☞学習：MVC勉強会、卒業制作
 - `docker compose exec web rails g model User` ユーザーモデルの作成 ➡gでファイルを作成していく
 - `docker compose exec web rails db:migrate:status`  migrationファイルのカラムの登録
-- webが立ち上がらない　➡　`docker ps` で立ち上がっているものを確認し、すべて `docker stop` をかけて再度upを試みる
-- conttollerに　`@users = User.all`　➡　Userのすべてを持ってきて。(viewにも見せる)　➡　.○○　Activestrageへの命令　Rails入門5章
+- webが立ち上がらない ➡ `docker ps` で立ち上がっているものを確認し、すべて `docker stop` をかけて再度upを試みる
+- conttollerに `@users = User.all` ➡ Userのすべてを持ってきて。(viewにも見せる) ➡ .○○ Activestrageへの命令 Rails入門5章
 
 ☞明日へ引き継ぎ
 ~~~
@@ -1337,7 +1338,7 @@ Tailwind勉強
 ☞学習：卒業制作、実践コードリーディング会
 https://school.runteq.jp/v2/runteq_events/1559
 
-- オブジェクト指向　ものと操作を分けて作り組み立てるように開発
+- オブジェクト指向 ものと操作を分けて作り組み立てるように開発
 https://runteq.jp/blog/programming-school/23091/?gad_source=1&gad_campaignid=18739270445&gbraid=0AAAAACbqO44BljOidHI99F8vh4IHpJkmv&gclid=CjwKCAjw_-3GBhAYEiwAjh9fUHzZO8JnTR562g7-2vrZ-V9Mq5uMH7P7qUF9sdIHNIO74GBoQ3fJbRoC69oQAvD_BwE
 
 - tailwindcss-rails 4.3.0とsassc-rails 競合するためtailwindcss-rails一本化
@@ -1373,7 +1374,7 @@ destroy - 削除処理
 ## 🎃10/4(5ポモ/2.5H)
 ☞学習：卒業制作
 
-`docker logs コンテナ名 2>&1 | grep -i error`　エラーのみ出力
+`docker logs コンテナ名 2>&1 | grep -i error` エラーのみ出力
 
 ## 🎃10/5(13ポモ/6.5H)
 ☞学習：卒業制作
@@ -1429,8 +1430,8 @@ git push origin main
 
 ## 🎃10/9(7ポモ/3.5H)
 ☞学習：基本情報勉強会
-　メモ程度に、日本のIT企業数の記事を残す。
-　https://article.yahoo.co.jp/detail/d3583418557e114ce21abebdca3273ba3b404fe3
+ メモ程度に、日本のIT企業数の記事を残す。
+ https://article.yahoo.co.jp/detail/d3583418557e114ce21abebdca3273ba3b404fe3
 
 ## 🎃10/10(1ポモ/0.5H)
 ☞学習：卒業制作(前日超過分)
@@ -1467,7 +1468,7 @@ git push origin main
 ## 🎃10/17(7ポモ/3.5H)
 ☞学習：卒業制作＠もくもく会、RUNTEQオフラインイベント
 【ひさじゅ校長大阪行きます！】日本コムシンクさんコラボイベント
-Railsを`8.1.0.beta1` から　`7.1.3`へ修正
+Railsを`8.1.0.beta1` から `7.1.3`へ修正
 
 ## 🎃10/18(7ポモ/3.5H)
 ☞学習：卒業制作＠もくもく会、校長飲み会
@@ -1549,7 +1550,7 @@ MVP提出
 ☞学習：看病・ワンオペにつきおやすみ
 
 ## 🎃10/25(5ポモ/2.5H)
-☞学習：卒業制作　無駄課金対策(DBをRenderからNeonへ)
+☞学習：卒業制作 無駄課金対策(DBをRenderからNeonへ)
 デプロイが落ちているのはなぜか紐解くとUptimeRobotのせいではなく、
 課金していたつもりのRenderで必要な課金(750時間/月 制限の解放)をできておらず
 ユーザー招待、データベースに課金していたことが判明。
@@ -1561,7 +1562,7 @@ MVP提出
 本リリースまでの週ごとのカラム作成
 
 ## 🎃10/27(0ポモ/0H)
-☞学習：なし　看病諸々
+☞学習：なし 看病諸々
 
 ## 🎃10/28(1ポモ/0.5H)
 ☞学習：卒制カラム整理
@@ -1579,11 +1580,11 @@ https://www.youtube.com/watch?v=acbZUSyqJks&list=PLEuyFWEF8u0NpqKakI3BYztLRuIfBU
 [![Image from Gyazo](https://i.gyazo.com/1ac64e7ea1ca1764a8f00ef0d5d80c93.png)](https://gyazo.com/1ac64e7ea1ca1764a8f00ef0d5d80c93)
 
 ## 🎃10/31(9ポモ/4.5H)
-☞学習：基本情報勉強会不参加回分復習,GithHubカリキュラム分草生やし※苦戦　(コロナ罹患有休)
+☞学習：基本情報勉強会不参加回分復習,GithHubカリキュラム分草生やし※苦戦 (コロナ罹患有休)
 
 ## 🍁11/1(4ポモ/2H)
 ☞学習：卒業制作
-　複数アプリをRenderでデプロイしていたが課金中止したためアプリが落ちていたので、再度デプロイ
+ 複数アプリをRenderでデプロイしていたが課金中止したためアプリが落ちていたので、再度デプロイ
 
 ## 🍁11/2(12ポモ/6H)
 ☞学習：卒業制作
@@ -1596,7 +1597,7 @@ https://www.youtube.com/watch?v=acbZUSyqJks&list=PLEuyFWEF8u0NpqKakI3BYztLRuIfBU
 
 ## 今回の学び
 ### 1. Gemを追加した時の正しい手順
-# Gemfileに追加後　☆重要☆
+# Gemfileに追加後 ☆重要☆
 `docker compose run --rm web bundle install`     #Gemfile.lockあれば削除して以下
 - 必須 `docker compose down -v`        # volumeもクリア
 - 必須 `docker compose build web`      # 再ビルド
@@ -1632,14 +1633,14 @@ rm -f tmp/pids/server.pid
 
 次の自分へ。deviceインストールまで完了
 kenta@sakamoto:/RUNTEQ/graduation_development$ docker compose exec web rails g devise User
-      invoke  active_record
-      create    db/migrate/20251102064233_devise_create_users.rb
-      create    app/models/user.rb
-      invoke    test_unit
-      create      test/models/user_test.rb
-      create      test/fixtures/users.yml
-      insert    app/models/user.rb
-       route  devise_for :users
+ invoke  active_record
+ create    db/migrate/20251102064233_devise_create_users.rb
+ create    app/models/user.rb
+ invoke    test_unit
+ create      test/models/user_test.rb
+ create      test/fixtures/users.yml
+ insert    app/models/user.rb
+  route  devise_for :users
 
 ## 🍁11/3(4ポモ/2H)
 ☞学習：基本情報勉強(基礎理論)
@@ -1668,13 +1669,10 @@ http://localhost:3000/users/sign_in
 
 ## 🍁11/20(2ポモ/1H)
 ☞学習：
-|ファイル|役割|編集OK？| 
-|---|---|---|
-|schema.rb|データベースの設計図（自動生成）|❌ 絶対に編集しない|
-|マイグレーションファイル|データベースの変更履歴|実行前なら⭕、実行後は❌|
-☔学習：
+
 
 |ファイル|役割|編集OK？|
 |---|---|---|
 |schema.rb|データベースの設計図（自動生成）|❌ 絶対に編集しない|
 |マイグレーションファイル|データベースの変更履歴|実行前なら⭕、実行後は❌|
+
