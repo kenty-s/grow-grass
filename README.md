@@ -1675,3 +1675,12 @@ http://localhost:3000/users/sign_in
 |schema.rb|データベースの設計図（自動生成）|❌ 絶対に編集しない|
 |マイグレーションファイル|データベースの変更履歴|実行前なら⭕、実行後は❌|
 
+## 🍁11/21(0ポモ/0H)
+☞学習：
+
+## 🍁11/22(4ポモ/4.5H)
+☞学習：卒業制作（ログイン機能）
+以下を修正したがBootstrapを使っているためTailwindに合っていない？再考が必要
+`app/views/layouts/application.html.erb`
+`routes.rb`
+`app/assets/stylesheets/application.css`
