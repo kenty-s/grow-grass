@@ -1690,4 +1690,5 @@ http://localhost:3000/users/sign_in
 
 ## 🍁11/24(ポモ/H)
 ☞学習：RUNTEQ企業軸セミナー(1H30m)
-欲しい人物＝企業HPのMissionValueV を見るとよい
+欲しい人物＝企業HPのMissionVisionValue を見るとよい
+企業軸と志望動機はマッチさせる
