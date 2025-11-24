@@ -1675,8 +1675,8 @@ http://localhost:3000/users/sign_in
 |schema.rb|データベースの設計図（自動生成）|❌ 絶対に編集しない|
 |マイグレーションファイル|データベースの変更履歴|実行前なら⭕、実行後は❌|
 
-## 🍁11/21(0ポモ/0H)
-☞学習：
+## 🍁11/21(0ポモ/0.5H)
+☞学習：電車内基本情報勉強（セキュリティ）
 
 ## 🍁11/22(4ポモ/4.5H)
 ☞学習：卒業制作（ログイン機能）
@@ -1684,3 +1684,10 @@ http://localhost:3000/users/sign_in
 `app/views/layouts/application.html.erb`
 `routes.rb`
 `app/assets/stylesheets/application.css`
+
+## 🍁11/23(2ポモ/1H)
+☞学習：基本情報勉強(セキュリティ、マネジメント)
+
+## 🍁11/24(ポモ/H)
+☞学習：RUNTEQ企業軸セミナー(1H30m)
+欲しい人物＝企業HPのMissionValueV を見るとよい
