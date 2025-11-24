@@ -1688,7 +1688,179 @@ http://localhost:3000/users/sign_in
 ## 🍁11/23(2ポモ/1H)
 ☞学習：基本情報勉強(セキュリティ、マネジメント)
 
-## 🍁11/24(ポモ/H)
+## 🍁11/24(5ポモ/4H)
 ☞学習：RUNTEQ企業軸セミナー(1H30m)
 欲しい人物＝企業HPのMissionVisionValue を見るとよい
 企業軸と志望動機はマッチさせる
+
+# Bootstrap → Tailwind 対応表
+
+| Bootstrap | Tailwind | 意味 |
+|-----------|----------|------|
+| `container-fluid` | `container mx-auto px-4` | 横幅100%のコンテナ → 中央揃えコンテナ + 左右パディング |
+| `d-flex` | `flex` | フレックスボックス表示 |
+| `d-inline-flex` | `inline-flex` | インラインフレックスボックス表示 |
+| `flex-row` | `flex-row` | フレックスアイテムを横並び（デフォルト） |
+| `flex-column` | `flex-col` | フレックスアイテムを縦並び |
+| `align-items-center` | `items-center` | 縦方向に中央揃え |
+| `align-items-start` | `items-start` | 縦方向に上揃え |
+| `align-items-end` | `items-end` | 縦方向に下揃え |
+| `justify-content-center` | `justify-center` | 横方向に中央揃え |
+| `justify-content-between` | `justify-between` | 横方向に両端揃え（間に均等スペース） |
+| `justify-content-around` | `justify-around` | 横方向に均等配置（両端にも半分のスペース） |
+| `justify-content-end` | `justify-end` | 横方向に右揃え |
+| `gap-2` | `gap-2` | アイテム間の隙間（0.5rem = 8px） |
+| `gap-3` | `gap-3` | アイテム間の隙間（0.75rem = 12px） |
+| `gap-4` | `gap-4` | アイテム間の隙間（1rem = 16px） |
+| `ms-auto` | `ml-auto` | 左マージンを自動（右寄せ） |
+| `me-auto` | `mr-auto` | 右マージンを自動（左寄せ） |
+| `m-0` | `m-0` | 全方向マージン0 |
+| `m-2` | `m-2` | 全方向マージン（0.5rem = 8px） |
+| `m-3` | `m-3` | 全方向マージン（0.75rem = 12px） |
+| `m-4` | `m-4` | 全方向マージン（1rem = 16px） |
+| `mt-3` | `mt-3` | 上マージン（0.75rem = 12px） |
+| `mb-3` | `mb-3` | 下マージン（0.75rem = 12px） |
+| `ms-3` / `ml-3` | `ml-3` | 左マージン（0.75rem = 12px） |
+| `me-3` / `mr-3` | `mr-3` | 右マージン（0.75rem = 12px） |
+| `mx-auto` | `mx-auto` | 左右マージン自動（中央揃え） |
+| `my-3` | `my-3` | 上下マージン（0.75rem = 12px） |
+| `p-2` | `p-2` | 全方向パディング（0.5rem = 8px） |
+| `p-3` | `p-3` | 全方向パディング（0.75rem = 12px） |
+| `p-4` | `p-4` | 全方向パディング（1rem = 16px） |
+| `px-3` | `px-3` | 左右パディング（0.75rem = 12px） |
+| `px-4` | `px-4` | 左右パディング（1rem = 16px） |
+| `py-2` | `py-2` | 上下パディング（0.5rem = 8px） |
+| `py-3` | `py-3` | 上下パディング（0.75rem = 12px） |
+| `btn` | `px-4 py-2 rounded` | ボタンの基本スタイル |
+| `btn-primary` | `bg-blue-500 text-white hover:bg-blue-600` | 青色ボタン |
+| `btn-secondary` | `bg-gray-500 text-white hover:bg-gray-600` | グレー色ボタン |
+| `btn-success` | `bg-green-500 text-white hover:bg-green-600` | 緑色ボタン |
+| `btn-danger` | `bg-red-500 text-white hover:bg-red-600` | 赤色ボタン |
+| `btn-warning` | `bg-yellow-500 text-white hover:bg-yellow-600` | 黄色ボタン |
+| `btn-sm` | `px-3 py-1.5 text-sm` | 小さいボタン |
+| `btn-lg` | `px-6 py-3 text-lg` | 大きいボタン |
+| `text-center` | `text-center` | テキスト中央揃え |
+| `text-start` / `text-left` | `text-left` | テキスト左揃え |
+| `text-end` / `text-right` | `text-right` | テキスト右揃え |
+| `text-muted` | `text-gray-600` | グレー色のテキスト |
+| `text-primary` | `text-blue-600` | 青色のテキスト |
+| `text-danger` | `text-red-600` | 赤色のテキスト |
+| `text-success` | `text-green-600` | 緑色のテキスト |
+| `fw-bold` / `font-weight-bold` | `font-bold` | 太字 |
+| `fw-normal` | `font-normal` | 通常の太さ |
+| `fw-light` | `font-light` | 細字 |
+| `fs-1` | `text-5xl` | 超大きいフォント（3rem = 48px） |
+| `fs-2` | `text-4xl` | とても大きいフォント（2.25rem = 36px） |
+| `fs-3` | `text-3xl` | 大きいフォント（1.875rem = 30px） |
+| `fs-4` | `text-2xl` | やや大きいフォント（1.5rem = 24px） |
+| `fs-5` | `text-xl` | 普通より大きいフォント（1.25rem = 20px） |
+| `fs-6` | `text-base` | 基本フォント（1rem = 16px） |
+| `small` | `text-sm` | 小さいフォント（0.875rem = 14px） |
+| `bg-primary` | `bg-blue-500` | 青色背景 |
+| `bg-secondary` | `bg-gray-500` | グレー色背景 |
+| `bg-success` | `bg-green-500` | 緑色背景 |
+| `bg-danger` | `bg-red-500` | 赤色背景 |
+| `bg-warning` | `bg-yellow-500` | 黄色背景 |
+| `bg-light` | `bg-gray-100` | 薄いグレー背景 |
+| `bg-white` | `bg-white` | 白背景 |
+| `bg-transparent` | `bg-transparent` | 透明背景 |
+| `border` | `border` | ボーダー（1px solid） |
+| `border-0` | `border-0` | ボーダーなし |
+| `border-top` | `border-t` | 上ボーダー |
+| `border-bottom` | `border-b` | 下ボーダー |
+| `border-start` / `border-left` | `border-l` | 左ボーダー |
+| `border-end` / `border-right` | `border-r` | 右ボーダー |
+| `rounded` | `rounded` | 角丸（0.25rem = 4px） |
+| `rounded-0` | `rounded-none` | 角丸なし |
+| `rounded-circle` | `rounded-full` | 完全な円形 |
+| `rounded-pill` | `rounded-full` | ピル型（完全な角丸） |
+| `shadow` | `shadow` | 影（標準） |
+| `shadow-sm` | `shadow-sm` | 小さい影 |
+| `shadow-lg` | `shadow-lg` | 大きい影 |
+| `shadow-none` | `shadow-none` | 影なし |
+| `w-25` | `w-1/4` | 横幅25% |
+| `w-50` | `w-1/2` | 横幅50% |
+| `w-75` | `w-3/4` | 横幅75% |
+| `w-100` | `w-full` | 横幅100% |
+| `w-auto` | `w-auto` | 横幅自動 |
+| `h-100` | `h-full` | 高さ100% |
+| `h-auto` | `h-auto` | 高さ自動 |
+| `d-none` | `hidden` | 非表示 |
+| `d-block` | `block` | ブロック表示 |
+| `d-inline` | `inline` | インライン表示 |
+| `d-inline-block` | `inline-block` | インラインブロック表示 |
+| `position-relative` | `relative` | 相対位置 |
+| `position-absolute` | `absolute` | 絶対位置 |
+| `position-fixed` | `fixed` | 固定位置 |
+| `position-sticky` / `sticky-top` | `sticky top-0` | スティッキー位置（スクロール時に固定） |
+| `top-0` | `top-0` | 上端0 |
+| `bottom-0` | `bottom-0` | 下端0 |
+| `start-0` / `left-0` | `left-0` | 左端0 |
+| `end-0` / `right-0` | `right-0` | 右端0 |
+| `z-index: 1` | `z-10` | 重ね順（10） |
+| `z-index: 2` | `z-20` | 重ね順（20） |
+| `z-index: 3` | `z-50` | 重ね順（50） |
+| `opacity-25` | `opacity-25` | 透明度25% |
+| `opacity-50` | `opacity-50` | 透明度50% |
+| `opacity-75` | `opacity-75` | 透明度75% |
+| `opacity-100` | `opacity-100` | 透明度100%（不透明） |
+| `overflow-hidden` | `overflow-hidden` | はみ出し部分を非表示 |
+| `overflow-auto` | `overflow-auto` | はみ出し時にスクロール |
+| `text-truncate` | `truncate` | テキストを1行で省略（...） |
+| `text-nowrap` | `whitespace-nowrap` | テキストを折り返さない |
+| `text-break` | `break-words` | 長い単語を折り返す |
+| `text-uppercase` | `uppercase` | 大文字変換 |
+| `text-lowercase` | `lowercase` | 小文字変換 |
+| `text-capitalize` | `capitalize` | 先頭文字を大文字 |
+| `navbar` | `flex items-center` | ナビゲーションバー |
+| `container` | `container mx-auto` | 最大幅制限付きコンテナ（中央揃え） |
+| `row` | `flex flex-wrap` | グリッド行 |
+| `col` | `flex-1` | グリッド列（均等幅） |
+| `col-6` | `w-1/2` | グリッド列（50%幅） |
+| `col-md-6` | `md:w-1/2` | グリッド列（中画面以上で50%幅） |
+| `visible` | `visible` | 表示 |
+| `invisible` | `invisible` | 非表示（スペースは残る） |
+| `cursor-pointer` | `cursor-pointer` | カーソルをポインター形状 |
+| `user-select-none` | `select-none` | テキスト選択不可 |
+
+## レスポンシブ対応
+
+| Bootstrap | Tailwind | 意味 |
+|-----------|----------|------|
+| `d-none d-sm-block` | `hidden sm:block` | スマホで非表示、タブレット以上で表示 |
+| `d-sm-none` | `sm:hidden` | タブレット以上で非表示 |
+| `col-md-6` | `md:w-1/2` | タブレット以上で50%幅 |
+| `col-lg-4` | `lg:w-1/3` | PC以上で33%幅 |
+| `text-center text-md-start` | `text-center md:text-left` | スマホで中央、タブレット以上で左揃え |
+
+## ブレークポイント
+
+| Bootstrap | Tailwind | 画面サイズ |
+|-----------|----------|-----------|
+| `sm` (576px~) | `sm:` (640px~) | スマホ横・小タブレット |
+| `md` (768px~) | `md:` (768px~) | タブレット |
+| `lg` (992px~) | `lg:` (1024px~) | ノートPC |
+| `xl` (1200px~) | `xl:` (1280px~) | デスクトップ |
+| `xxl` (1400px~) | `2xl:` (1536px~) | 大画面 |
+
+## Hover・Focus効果
+
+| Bootstrap | Tailwind | 意味 |
+|-----------|----------|------|
+| `.btn:hover` | `hover:bg-blue-600` | ホバー時に背景色変更 |
+| `.btn:focus` | `focus:ring-2` | フォーカス時にリング表示 |
+| `.btn:active` | `active:bg-blue-700` | クリック時に背景色変更 |
+| `transition` | `transition-colors` | 色変化にアニメーション |
+| なし | `hover:opacity-80` | ホバー時に透明度変更 |
+| なし | `hover:scale-105` | ホバー時に1.05倍拡大 |
+
+## トランジション
+
+| Bootstrap | Tailwind | 意味 |
+|-----------|----------|------|
+| なし | `transition` | すべてのプロパティにトランジション |
+| なし | `transition-colors` | 色変化のみトランジション |
+| なし | `transition-transform` | 変形のみトランジション |
+| なし | `duration-200` | トランジション時間200ms |
+| なし | `duration-300` | トランジション時間300ms |
+| なし | `ease-in-out` | イージング関数 |
