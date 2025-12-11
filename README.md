@@ -1935,3 +1935,8 @@ https://www.youtube.com/results?search_query=%E3%81%99%E3%83%BC%E3%81%95%E3%82%9
 ## 🎄12/9(ポモ/3.5H)
 ☞就活：職務経歴書
 そろそろアプリ触りたい、触らねば、、、
+
+### gem devise
+Deviseはデフォルトで`email`と`password`しか受け付けません。
+nameフィールドを追加した場合は、明示的に許可する必要があります!
+
