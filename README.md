@@ -1978,3 +1978,64 @@ touch .env から苦戦
 ## 🎄12/27(ポモ/5.0H)
 ☞勉強:卒業制作
 ☞就活:面接対策　@もくもく会
+
+## 🎄12/28(ポモ/0.0H)
+☞体調不良...
+
+## 🎄12/29(ポモ/4.0H)
+☞勉強:卒業制作(Googleログイン完了)
+
+開発環境セットアップと起動
+1. .env をプロジェクト直下に作成（コミットしない）
+
+RAILS_MASTER_KEY=（config/master.key の中身）
+GOOGLE_CLIENT_ID=（GoogleコンソールのクライアントID）
+GOOGLE_CLIENT_SECRET=（クライアントSecret）
+SECRET_KEY_BASE=（rails secret で生成した長い文字列）
+
+2. docker-compose.yml（開発用 web サービス）に env_file を設定したままにする
+
+web:
+  env_file:
+    - .env
+  environment:
+    RAILS_ENV: development
+    GOOGLE_CLIENT_ID: ${GOOGLE_CLIENT_ID}
+    GOOGLE_CLIENT_SECRET: ${GOOGLE_CLIENT_SECRET}
+
+3. 古い状態をリセットして起動
+
+docker-compose down -v
+docker-compose --env-file .env up --build db web
+
+4. DB を用意（未作成なら）
+
+docker-compose run --rm web bundle exec rails db:create db:migrate
+
+## トラブルシュートでやったこと
+- Gemfile.lock コンフリクト解消: コンフリクトマーカーを削除し、93_UserModel:Gemfile.lock > Gemfile.lock でクリーンに戻して bundle install。
+- Bundler の GemNotFound: docker-compose down -v で bundle_data ボリュームを消し、再度 docker-compose up --build で依存を入れ直し。
+- SECRET_KEY_BASE 不足 (web_prod): .env に SECRET_KEY_BASE を追加（開発では web_prod を起動しないのも可）。
+- invalid_client (Google):
+ - Google Cloud Console で Webアプリ用クライアントを作成/再発行。
+リダイレクトURIを設定: http://localhost:3000/users/auth/google_oauth2/callback（本番があれば本番URLも）。
+ - 新しい Client ID/Secret を .env に貼り直し、docker-compose down && docker-compose --env-file .env up --build db web で再起動。
+- docker-compose exec web env | grep GOOGLE_ で環境変数が正しく渡っているか確認。
+
+## 参考コマンド
+- .env を作り直す
+
+cat > .env <<'EOF'
+RAILS_MASTER_KEY=...
+GOOGLE_CLIENT_ID=...
+GOOGLE_CLIENT_SECRET=...
+SECRET_KEY_BASE=...
+EOF
+
+- コンテナ内の環境変数確認
+docker-compose exec web env | grep GOOGLE_
+
+- ログ確認
+docker-compose logs --tail=50 web
+
+これでローカルの Google ログインが通る状態まで復旧
