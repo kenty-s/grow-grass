@@ -2039,3 +2039,12 @@ docker-compose exec web env | grep GOOGLE_
 docker-compose logs --tail=50 web
 
 これでローカルの Google ログインが通る状態まで復旧
+
+## 🎄12/30(8ポモ/4.0H)
+☞勉強:卒業制作
+
+## 🎄12/31(ポモ/H)
+☞休み
+
+## 🎄1/1(4ポモ/4.0H)
+☞勉強:卒業制作(複数条件検索)
