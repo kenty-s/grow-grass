@@ -2055,7 +2055,7 @@ docker-compose logs --tail=50 web
 ## 🎄1/3(ポモ/3.0H)
 ☞勉強:卒業制作(検索履歴)
 
-## 🎄1/4(4ポモ/4.0H)
+## 🎄1/4(4ポモ/5.0H)
 ☞勉強:卒業制作(検索履歴)
 マイグレーションファイルはマイグレーション前なら修正OK
 
@@ -2065,3 +2065,9 @@ AIについて学ぶことにはやはり意味があると感じる。
 独学で限界を感じれば入学も視野に。
 crowdworks http://crowdworks.jp/
 ランサーズ https://www.lancers.jp/mypage? 案件取得はここで。
+
+## 🎄1/5(ポモ/3.0H)
+☞勉強:卒業制作(検索履歴)
+CSSが反映されないとおもっていたら走らせていないだけだった
+`docker compose exec web bin/rails tailwindcss:build`
+凡そ履歴は完成
