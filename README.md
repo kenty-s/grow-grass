@@ -2071,3 +2071,7 @@ crowdworks http://crowdworks.jp/
 CSSが反映されないとおもっていたら走らせていないだけだった
 `docker compose exec web bin/rails tailwindcss:build`
 凡そ履歴は完成
+
+## 🎄1/6(ポモ/2.0H)
+☞勉強:卒業制作(検索履歴)
+検索履歴はおおよそ完了。明日は削除機能。
