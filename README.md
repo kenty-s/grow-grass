@@ -2075,3 +2075,9 @@ CSSが反映されないとおもっていたら走らせていないだけだ�
 ## 🎄1/6(ポモ/2.0H)
 ☞勉強:卒業制作(検索履歴)
 検索履歴はおおよそ完了。明日は削除機能。
+
+## 🎄1/7(ポモ/2.0H)
+☞勉強:卒業制作(検索履歴_削除機能)
+- <%= javascript_importmap_tags %> 
+  importmap で管理しているJS（Turbo/Stimulusなど）を読み込むためのタグを自動生成するヘルパー(application.jsに記入)
+- 迷ったらDocker を再起動(docker compose restart webかdown からのup -d -build)
