@@ -2081,3 +2081,8 @@ CSSが反映されないとおもっていたら走らせていないだけだ�
 - <%= javascript_importmap_tags %> 
   importmap で管理しているJS（Turbo/Stimulusなど）を読み込むためのタグを自動生成するヘルパー(application.jsに記入)
 - 迷ったらDocker を再起動(docker compose restart webかdown からのup -d -build)
+
+## 🎄1/8(ポモ/2.0H)
+☞懇親会
+エンジニア社長より召集の下で趣旨を告げられず参加したが...
+ほぼ異業種、行く価値がなく時間を溶かしてしまった...
