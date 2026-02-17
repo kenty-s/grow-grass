@@ -1061,7 +1061,7 @@ ex)
 ~~~
 enum eyecatch_align: { left: 0, center: 1, right: 2 }
 
-validates :eyecatch_width, numericality: 
+validates :eyecatch_width, numericality:
 { less_than_or_equal_to: 700,
  greater_than_or_equal_to: 100, 
  allow_blank: true }
@@ -2216,6 +2216,4 @@ OGPができているか怪しいので要確認
 
 ## 👹2/17(ポモ/H)
 ☞学習：卒業制作
-
-# 👹2/16(ポモ/1H)
 ☞就活：type CA面談
