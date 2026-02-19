@@ -2224,3 +2224,6 @@ OGPができているか怪しいので要確認
 ## 👹2/19(ポモ/4H)
 ☞学習：卒業制作(食べログ遷移ほか微修正)
 料理ごとのスパイス変更を全反映：docker compose -f docker-compose.yml exec web bin/rails spice_pairings:sync
+
+## 👹2/20(ポモ/H)
+☞学習：
