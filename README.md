@@ -2287,3 +2287,6 @@ https://type.jp/s/fair/online/
 
 ## 🎎3/9(ポモ/4H)
 ☞学習：卒業制作(GmailAPI導入)
+
+## 🎎3/9(ポモ/4H)
+☞学習：卒業制作(本リリース、README修正)
