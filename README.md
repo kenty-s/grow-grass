@@ -2332,3 +2332,8 @@ https://type.jp/s/fair/online/
 
 ## 🎎3/25(ポモ/3H)
 ☞就活：paizaCランク
+split 区切り
+map 中で作業
+n.times do 繰り返し
++= 足す
+/= 割る
