@@ -2333,7 +2333,8 @@ https://type.jp/s/fair/online/
 ## 🎎3/25(ポモ/3H)
 ☞就活：paizaCランク
 split 区切り
-map 中で作業
+map 配列の全要素に同じ処理をして、新たな配列を作る
 n.times do 繰り返し
-+= 足す
-/= 割る
++= 足して代入
+/= 割って代入
+＆ 各要素に同じメソッドを呼ぶ省略　(map { |x| x.to_i }　→　map { |x| x.to_i })
