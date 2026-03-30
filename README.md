@@ -2356,12 +2356,19 @@ ex) for (let i = 0; i < 1000; i++) {
 
 ## 🎎3/29(ポモ/H)
 ☞就活：内定済企業面談
-☞就活：paizaDランク(JS)
+☞学習：paizaDランク(JS)
 Number   // これはOK（組み込み関数）
 number   // これは存在しない → エラー
 |書き方	|結果|
 |--|--|
 |Number()	|✅ 正しい|
 |number()	|❌ エラー|
-|parseInt()|	✅ OK|
+|parseInt()	|✅ OK|
 |parseint()	|❌ エラー|
+
+## 🎎3/29(ポモ/H)
+☞就活：エージェント面談
+☞学習：paizaCランク(JS)
+s[i] i番目の文字を取り出す」
+Math.random() 0以上1未満の小数ランダム
+Math.random() * 10　+ 1 整数にしてかつ＋1することで1～10
